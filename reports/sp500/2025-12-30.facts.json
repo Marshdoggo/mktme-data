@@ -1,322 +1,83 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "universe": "sp500",
-  "universe_size": 503,
+  "universe_size": 492,
   "asof_date": "2025-12-30",
   "lookback_trading_days": 252,
   "primary_rank_metric": "Annualized Sharpe",
+  "digest": "16e992d13424",
   "distribution": {
-    "primary_metric": {
-      "available": true,
-      "column": "Annualized Sharpe",
-      "count": 503,
-      "min": "-0.2877",
-      "median": "0.5418",
-      "max": "1.9885"
+    "primary_metric": "Annualized Sharpe",
+    "sharpe": {
+      "min": -0.28877329114530775,
+      "median": 0.5420360443401191,
+      "max": 1.9895679967345907
     },
-    "daily_volatility": {
-      "available": true,
-      "column": "Daily Volatility (Std)",
-      "count": 503,
-      "min": "0.0122",
-      "median": "0.0219",
-      "max": "0.2636"
-    },
-    "rsi14": {
-      "available": true,
-      "column": "RSI(14)",
-      "count": 503,
-      "min": "7.5031",
-      "median": "57.9700",
-      "max": "95.0103"
+    "daily_vol": {
+      "min": 0.012153184450903496,
+      "median": 0.02192841898692619,
+      "max": 0.2635953657348246
     }
   },
   "extremes": {
-    "largest_drawdown": {
-      "available": true,
-      "column": "Max Drawdown",
-      "Ticker": "AKAM",
-      "Name": null,
-      "value": "-0.9980"
+    "worst_max_drawdown": {
+      "ticker": "AKAM",
+      "value": -0.9979549789647026
     },
     "rsi_high": {
-      "available": true,
-      "column": "RSI(14)",
-      "Ticker": "ABNB",
-      "Name": null,
-      "value": "95.0103"
+      "ticker": "ABNB",
+      "value": 94.9386255397325
     },
     "rsi_low": {
-      "available": true,
-      "column": "RSI(14)",
-      "Ticker": "MPC",
-      "Name": null,
-      "value": "7.5031"
+      "ticker": "MPC",
+      "value": 7.498455842801235
     }
   },
-  "leaders": {
-    "top_by_primary_metric": [
-      {
-        "Ticker": "GEV",
-        "Annualized Sharpe": "1.9885",
-        "Sortino Ratio": "17.4159",
-        "Mean Daily Return": "0.004273",
-        "Daily Volatility (Std)": "0.0341",
-        "CAGR": null,
-        "Max Drawdown": "-0.3829",
-        "RSI(14)": "56.6161"
-      },
-      {
-        "Ticker": "CEG",
-        "Annualized Sharpe": "1.3684",
-        "Sortino Ratio": "8.2716",
-        "Mean Daily Return": "0.002668",
-        "Daily Volatility (Std)": "0.0310",
-        "CAGR": null,
-        "Max Drawdown": "-0.5070",
-        "RSI(14)": "49.0543"
-      },
-      {
-        "Ticker": "PLTR",
-        "Annualized Sharpe": "1.1458",
-        "Sortino Ratio": "6.2893",
-        "Mean Daily Return": "0.003221",
-        "Daily Volatility (Std)": "0.0446",
-        "CAGR": null,
-        "Max Drawdown": "-0.8462",
-        "RSI(14)": "52.2830"
-      },
-      {
-        "Ticker": "AVGO",
-        "Annualized Sharpe": "1.1128",
-        "Sortino Ratio": "3.2466",
-        "Mean Daily Return": "0.001673",
-        "Daily Volatility (Std)": "0.0239",
-        "CAGR": null,
-        "Max Drawdown": "-0.4830",
-        "RSI(14)": "28.4226"
-      },
-      {
-        "Ticker": "APP",
-        "Annualized Sharpe": "1.0265",
-        "Sortino Ratio": "5.9003",
-        "Mean Daily Return": "0.003129",
-        "Daily Volatility (Std)": "0.0484",
-        "CAGR": null,
-        "Max Drawdown": "-0.9190",
-        "RSI(14)": "43.6056"
-      }
-    ],
-    "top_by_sortino": [
-      {
-        "Ticker": "GEV",
-        "Annualized Sharpe": "1.9885",
-        "Sortino Ratio": "17.4159",
-        "Mean Daily Return": "0.004273",
-        "Daily Volatility (Std)": "0.0341",
-        "CAGR": null,
-        "Max Drawdown": "-0.3829",
-        "RSI(14)": "56.6161"
-      },
-      {
-        "Ticker": "CEG",
-        "Annualized Sharpe": "1.3684",
-        "Sortino Ratio": "8.2716",
-        "Mean Daily Return": "0.002668",
-        "Daily Volatility (Std)": "0.0310",
-        "CAGR": null,
-        "Max Drawdown": "-0.5070",
-        "RSI(14)": "49.0543"
-      },
-      {
-        "Ticker": "PLTR",
-        "Annualized Sharpe": "1.1458",
-        "Sortino Ratio": "6.2893",
-        "Mean Daily Return": "0.003221",
-        "Daily Volatility (Std)": "0.0446",
-        "CAGR": null,
-        "Max Drawdown": "-0.8462",
-        "RSI(14)": "52.2830"
-      },
-      {
-        "Ticker": "APP",
-        "Annualized Sharpe": "1.0265",
-        "Sortino Ratio": "5.9003",
-        "Mean Daily Return": "0.003129",
-        "Daily Volatility (Std)": "0.0484",
-        "CAGR": null,
-        "Max Drawdown": "-0.9190",
-        "RSI(14)": "43.6056"
-      },
-      {
-        "Ticker": "VLTO",
-        "Annualized Sharpe": "0.6567",
-        "Sortino Ratio": "4.8558",
-        "Mean Daily Return": "0.000584",
-        "Daily Volatility (Std)": "0.0141",
-        "CAGR": null,
-        "Max Drawdown": "-0.2473",
-        "RSI(14)": "65.6147"
-      }
-    ],
-    "top_by_cagr": [
-      {
-        "Ticker": "MO",
-        "Annualized Sharpe": "0.7568",
-        "Sortino Ratio": "1.2344",
-        "Mean Daily Return": "0.000773",
-        "Daily Volatility (Std)": "0.0162",
-        "CAGR": "0.1754",
-        "Max Drawdown": "-0.6543",
-        "RSI(14)": "56.9235"
-      },
-      {
-        "Ticker": "MCD",
-        "Annualized Sharpe": "0.6454",
-        "Sortino Ratio": "1.0857",
-        "Mean Daily Return": "0.000678",
-        "Daily Volatility (Std)": "0.0167",
-        "CAGR": "0.1454",
-        "Max Drawdown": "-0.7363",
-        "RSI(14)": "45.9671"
-      },
-      {
-        "Ticker": "GD",
-        "Annualized Sharpe": "0.6017",
-        "Sortino Ratio": "1.0287",
-        "Mean Daily Return": "0.000705",
-        "Daily Volatility (Std)": "0.0186",
-        "CAGR": "0.1437",
-        "Max Drawdown": "-0.7610",
-        "RSI(14)": "58.4556"
-      },
-      {
-        "Ticker": "KR",
-        "Annualized Sharpe": "0.5889",
-        "Sortino Ratio": "0.9845",
-        "Mean Daily Return": "0.000695",
-        "Daily Volatility (Std)": "0.0187",
-        "CAGR": "0.1398",
-        "Max Drawdown": "-0.6681",
-        "RSI(14)": "49.1543"
-      },
-      {
-        "Ticker": "RTX",
-        "Annualized Sharpe": "0.5984",
-        "Sortino Ratio": "1.0007",
-        "Mean Daily Return": "0.000660",
-        "Daily Volatility (Std)": "0.0175",
-        "CAGR": "0.1362",
-        "Max Drawdown": "-0.5267",
-        "RSI(14)": "72.9525"
-      }
-    ],
-    "worst_by_max_drawdown": [
-      {
-        "Ticker": "AKAM",
-        "Annualized Sharpe": "0.2731",
-        "Sortino Ratio": "0.6546",
-        "Mean Daily Return": "0.000675",
-        "Daily Volatility (Std)": "0.0392",
-        "CAGR": null,
-        "Max Drawdown": "-0.9980",
-        "RSI(14)": "65.3846"
-      },
-      {
-        "Ticker": "SBAC",
-        "Annualized Sharpe": "0.4913",
-        "Sortino Ratio": "1.1511",
-        "Mean Daily Return": "0.001101",
-        "Daily Volatility (Std)": "0.0356",
-        "CAGR": null,
-        "Max Drawdown": "-0.9965",
-        "RSI(14)": "62.8350"
-      },
-      {
-        "Ticker": "AIG",
-        "Annualized Sharpe": "0.2966",
-        "Sortino Ratio": "0.4846",
-        "Mean Daily Return": "0.000498",
-        "Daily Volatility (Std)": "0.0267",
-        "CAGR": null,
-        "Max Drawdown": "-0.9964",
-        "RSI(14)": "87.3716"
-      },
-      {
-        "Ticker": "EQIX",
-        "Annualized Sharpe": "0.3513",
-        "Sortino Ratio": "0.8563",
-        "Mean Daily Return": "0.000834",
-        "Daily Volatility (Std)": "0.0377",
-        "CAGR": null,
-        "Max Drawdown": "-0.9944",
-        "RSI(14)": "64.2430"
-      },
-      {
-        "Ticker": "NVR",
-        "Annualized Sharpe": "0.2148",
-        "Sortino Ratio": "2.8093",
-        "Mean Daily Return": "0.003567",
-        "Daily Volatility (Std)": "0.2636",
-        "CAGR": null,
-        "Max Drawdown": "-0.9935",
-        "RSI(14)": "49.3578"
-      }
-    ],
-    "top_by_volatility": [
-      {
-        "Ticker": "NVR",
-        "Annualized Sharpe": "0.2148",
-        "Sortino Ratio": "2.8093",
-        "Mean Daily Return": "0.003567",
-        "Daily Volatility (Std)": "0.2636",
-        "CAGR": null,
-        "Max Drawdown": "-0.9935",
-        "RSI(14)": "49.3578"
-      },
-      {
-        "Ticker": "HUBB",
-        "Annualized Sharpe": "0.2363",
-        "Sortino Ratio": "2.1632",
-        "Mean Daily Return": "0.001153",
-        "Daily Volatility (Std)": "0.0775",
-        "CAGR": null,
-        "Max Drawdown": "-0.5972",
-        "RSI(14)": "55.4590"
-      },
-      {
-        "Ticker": "COIN",
-        "Annualized Sharpe": "0.3419",
-        "Sortino Ratio": "1.8269",
-        "Mean Daily Return": "0.001167",
-        "Daily Volatility (Std)": "0.0542",
-        "CAGR": null,
-        "Max Drawdown": "-0.9090",
-        "RSI(14)": "17.5796"
-      },
-      {
-        "Ticker": "MNST",
-        "Annualized Sharpe": "0.5863",
-        "Sortino Ratio": "1.2529",
-        "Mean Daily Return": "0.001798",
-        "Daily Volatility (Std)": "0.0487",
-        "CAGR": null,
-        "Max Drawdown": "-0.9556",
-        "RSI(14)": "70.9509"
-      },
-      {
-        "Ticker": "APP",
-        "Annualized Sharpe": "1.0265",
-        "Sortino Ratio": "5.9003",
-        "Mean Daily Return": "0.003129",
-        "Daily Volatility (Std)": "0.0484",
-        "CAGR": null,
-        "Max Drawdown": "-0.9190",
-        "RSI(14)": "43.6056"
-      }
-    ]
-  },
-  "sector_summary": {
-    "available": false
-  }
+  "leaders": [
+    {
+      "ticker": "GEV",
+      "Annualized Sharpe": 1.9895679967345907,
+      "Sortino Ratio": 17.42491202630732,
+      "Daily Volatility (Std)": 0.03411027745921369,
+      "CAGR": null,
+      "Max Drawdown": -0.3828562218513746,
+      "RSI(14)": 56.71181001882037
+    },
+    {
+      "ticker": "CEG",
+      "Annualized Sharpe": 1.3680721769932442,
+      "Sortino Ratio": 8.2693194760926,
+      "Daily Volatility (Std)": 0.03095307072371534,
+      "CAGR": null,
+      "Max Drawdown": -0.5070228413478584,
+      "RSI(14)": 48.802182749800515
+    },
+    {
+      "ticker": "PLTR",
+      "Annualized Sharpe": 1.143594859972114,
+      "Sortino Ratio": 6.277218008195272,
+      "Daily Volatility (Std)": 0.044622174719672524,
+      "CAGR": null,
+      "Max Drawdown": -0.8461538461538461,
+      "RSI(14)": 50.85226598161253
+    },
+    {
+      "ticker": "AVGO",
+      "Annualized Sharpe": 1.1134424997518575,
+      "Sortino Ratio": 3.248546932339563,
+      "Daily Volatility (Std)": 0.02386721729587514,
+      "CAGR": null,
+      "Max Drawdown": -0.48299972264734004,
+      "RSI(14)": 28.857626846128127
+    },
+    {
+      "ticker": "APP",
+      "Annualized Sharpe": 1.0264256790192618,
+      "Sortino Ratio": 5.900125043656624,
+      "Daily Volatility (Std)": 0.04839724135453185,
+      "CAGR": null,
+      "Max Drawdown": -0.919024812239502,
+      "RSI(14)": 43.589860575770835
+    }
+  ]
 }
