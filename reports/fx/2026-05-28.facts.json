@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "universe": "fx",
+  "universe_size": 14,
+  "asof_date": "2026-05-28",
+  "lookback_trading_days": 252,
+  "primary_rank_metric": "Annualized Sharpe",
+  "distribution": {
+    "primary_metric": {
+      "available": true,
+      "column": "Annualized Sharpe",
+      "count": 14,
+      "min": "-0.8506",
+      "median": "0.7477",
+      "max": "2.2720"
+    },
+    "daily_volatility": {
+      "available": true,
+      "column": "Daily Volatility (Std)",
+      "count": 14,
+      "min": "0.0023",
+      "median": "0.0043",
+      "max": "0.0055"
+    },
+    "rsi14": {
+      "available": true,
+      "column": "RSI(14)",
+      "count": 14,
+      "min": "32.2667",
+      "median": "57.1421",
+      "max": "82.2500"
+    }
+  },
+  "extremes": {
+    "largest_drawdown": {
+      "available": true,
+      "column": "Max Drawdown",
+      "Ticker": "NZDUSD",
+      "Name": "NZDUSD",
+      "value": "-0.0845"
+    },
+    "rsi_high": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "USDJPY",
+      "Name": "USDJPY",
+      "value": "82.2500"
+    },
+    "rsi_low": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "EURUSD",
+      "Name": "EURUSD",
+      "value": "32.2667"
+    }
+  },
+  "leaders": {
+    "top_by_primary_metric": [
+      {
+        "Ticker": "AUDJPY",
+        "Name": "AUDJPY",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "2.2720",
+        "Sortino Ratio": "3.4981",
+        "Mean Daily Return": "0.000789",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "0.2144",
+        "Max Drawdown": "-0.0373",
+        "RSI(14)": "55.4556"
+      },
+      {
+        "Ticker": "CHFJPY",
+        "Name": "CHFJPY",
+        "Sector": "FX",
+        "SubIndustry": "CHF",
+        "Annualized Sharpe": "2.1228",
+        "Sortino Ratio": "3.4012",
+        "Mean Daily Return": "0.000576",
+        "Daily Volatility (Std)": "0.0043",
+        "CAGR": "0.1528",
+        "Max Drawdown": "-0.0251",
+        "RSI(14)": "63.9019"
+      },
+      {
+        "Ticker": "EURJPY",
+        "Name": "EURJPY",
+        "Sector": "FX",
+        "SubIndustry": "EUR",
+        "Annualized Sharpe": "1.8285",
+        "Sortino Ratio": "2.7129",
+        "Mean Daily Return": "0.000450",
+        "Daily Volatility (Std)": "0.0039",
+        "CAGR": "0.1174",
+        "Max Drawdown": "-0.0268",
+        "RSI(14)": "63.4503"
+      },
+      {
+        "Ticker": "GBPJPY",
+        "Name": "GBPJPY",
+        "Sector": "FX",
+        "SubIndustry": "GBP",
+        "Annualized Sharpe": "1.3587",
+        "Sortino Ratio": "1.9776",
+        "Mean Daily Return": "0.000369",
+        "Daily Volatility (Std)": "0.0043",
+        "CAGR": "0.0944",
+        "Max Drawdown": "-0.0287",
+        "RSI(14)": "59.7905"
+      },
+      {
+        "Ticker": "AUDUSD",
+        "Name": "AUDUSD",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "1.2468",
+        "Sortino Ratio": "1.8482",
+        "Mean Daily Return": "0.000401",
+        "Daily Volatility (Std)": "0.0051",
+        "CAGR": "0.1023",
+        "Max Drawdown": "-0.0420",
+        "RSI(14)": "39.6419"
+      }
+    ],
+    "top_by_sortino": [
+      {
+        "Ticker": "AUDJPY",
+        "Name": "AUDJPY",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "2.2720",
+        "Sortino Ratio": "3.4981",
+        "Mean Daily Return": "0.000789",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "0.2144",
+        "Max Drawdown": "-0.0373",
+        "RSI(14)": "55.4556"
+      },
+      {
+        "Ticker": "CHFJPY",
+        "Name": "CHFJPY",
+        "Sector": "FX",
+        "SubIndustry": "CHF",
+        "Annualized Sharpe": "2.1228",
+        "Sortino Ratio": "3.4012",
+        "Mean Daily Return": "0.000576",
+        "Daily Volatility (Std)": "0.0043",
+        "CAGR": "0.1528",
+        "Max Drawdown": "-0.0251",
+        "RSI(14)": "63.9019"
+      },
+      {
+        "Ticker": "EURJPY",
+        "Name": "EURJPY",
+        "Sector": "FX",
+        "SubIndustry": "EUR",
+        "Annualized Sharpe": "1.8285",
+        "Sortino Ratio": "2.7129",
+        "Mean Daily Return": "0.000450",
+        "Daily Volatility (Std)": "0.0039",
+        "CAGR": "0.1174",
+        "Max Drawdown": "-0.0268",
+        "RSI(14)": "63.4503"
+      },
+      {
+        "Ticker": "GBPJPY",
+        "Name": "GBPJPY",
+        "Sector": "FX",
+        "SubIndustry": "GBP",
+        "Annualized Sharpe": "1.3587",
+        "Sortino Ratio": "1.9776",
+        "Mean Daily Return": "0.000369",
+        "Daily Volatility (Std)": "0.0043",
+        "CAGR": "0.0944",
+        "Max Drawdown": "-0.0287",
+        "RSI(14)": "59.7905"
+      },
+      {
+        "Ticker": "AUDUSD",
+        "Name": "AUDUSD",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "1.2468",
+        "Sortino Ratio": "1.8482",
+        "Mean Daily Return": "0.000401",
+        "Daily Volatility (Std)": "0.0051",
+        "CAGR": "0.1023",
+        "Max Drawdown": "-0.0420",
+        "RSI(14)": "39.6419"
+      }
+    ],
+    "top_by_cagr": [
+      {
+        "Ticker": "AUDJPY",
+        "Name": "AUDJPY",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "2.2720",
+        "Sortino Ratio": "3.4981",
+        "Mean Daily Return": "0.000789",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "0.2144",
+        "Max Drawdown": "-0.0373",
+        "RSI(14)": "55.4556"
+      },
+      {
+        "Ticker": "CHFJPY",
+        "Name": "CHFJPY",
+        "Sector": "FX",
+        "SubIndustry": "CHF",
+        "Annualized Sharpe": "2.1228",
+        "Sortino Ratio": "3.4012",
+        "Mean Daily Return": "0.000576",
+        "Daily Volatility (Std)": "0.0043",
+        "CAGR": "0.1528",
+        "Max Drawdown": "-0.0251",
+        "RSI(14)": "63.9019"
+      },
+      {
+        "Ticker": "EURJPY",
+        "Name": "EURJPY",
+        "Sector": "FX",
+        "SubIndustry": "EUR",
+        "Annualized Sharpe": "1.8285",
+        "Sortino Ratio": "2.7129",
+        "Mean Daily Return": "0.000450",
+        "Daily Volatility (Std)": "0.0039",
+        "CAGR": "0.1174",
+        "Max Drawdown": "-0.0268",
+        "RSI(14)": "63.4503"
+      },
+      {
+        "Ticker": "AUDUSD",
+        "Name": "AUDUSD",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "1.2468",
+        "Sortino Ratio": "1.8482",
+        "Mean Daily Return": "0.000401",
+        "Daily Volatility (Std)": "0.0051",
+        "CAGR": "0.1023",
+        "Max Drawdown": "-0.0420",
+        "RSI(14)": "39.6419"
+      },
+      {
+        "Ticker": "USDJPY",
+        "Name": "USDJPY",
+        "Sector": "FX",
+        "SubIndustry": "USD",
+        "Annualized Sharpe": "1.2009",
+        "Sortino Ratio": "1.6661",
+        "Mean Daily Return": "0.000400",
+        "Daily Volatility (Std)": "0.0053",
+        "CAGR": "0.1016",
+        "Max Drawdown": "-0.0436",
+        "RSI(14)": "82.2500"
+      }
+    ],
+    "worst_by_max_drawdown": [
+      {
+        "Ticker": "NZDUSD",
+        "Name": "NZDUSD",
+        "Sector": "FX",
+        "SubIndustry": "NZD",
+        "Annualized Sharpe": "-0.1350",
+        "Sortino Ratio": "-0.1911",
+        "Mean Daily Return": "-0.000047",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "-0.0154",
+        "Max Drawdown": "-0.0845",
+        "RSI(14)": "46.3357"
+      },
+      {
+        "Ticker": "USDCHF",
+        "Name": "USDCHF",
+        "Sector": "FX",
+        "SubIndustry": "USD",
+        "Annualized Sharpe": "-0.5751",
+        "Sortino Ratio": "-0.7561",
+        "Mean Daily Return": "-0.000170",
+        "Daily Volatility (Std)": "0.0047",
+        "CAGR": "-0.0444",
+        "Max Drawdown": "-0.0722",
+        "RSI(14)": "61.9048"
+      },
+      {
+        "Ticker": "GBPUSD",
+        "Name": "GBPUSD",
+        "Sector": "FX",
+        "SubIndustry": "GBP",
+        "Annualized Sharpe": "-0.0796",
+        "Sortino Ratio": "-0.1146",
+        "Mean Daily Return": "-0.000021",
+        "Daily Volatility (Std)": "0.0042",
+        "CAGR": "-0.0075",
+        "Max Drawdown": "-0.0529",
+        "RSI(14)": "35.8744"
+      },
+      {
+        "Ticker": "EURUSD",
+        "Name": "EURUSD",
+        "Sector": "FX",
+        "SubIndustry": "EUR",
+        "Annualized Sharpe": "0.2586",
+        "Sortino Ratio": "0.3804",
+        "Mean Daily Return": "0.000064",
+        "Daily Volatility (Std)": "0.0039",
+        "CAGR": "0.0143",
+        "Max Drawdown": "-0.0519",
+        "RSI(14)": "32.2667"
+      },
+      {
+        "Ticker": "EURCHF",
+        "Name": "EURCHF",
+        "Sector": "FX",
+        "SubIndustry": "EUR",
+        "Annualized Sharpe": "-0.8506",
+        "Sortino Ratio": "-1.1466",
+        "Mean Daily Return": "-0.000122",
+        "Daily Volatility (Std)": "0.0023",
+        "CAGR": "-0.0308",
+        "Max Drawdown": "-0.0448",
+        "RSI(14)": "45.0000"
+      }
+    ],
+    "top_by_volatility": [
+      {
+        "Ticker": "AUDJPY",
+        "Name": "AUDJPY",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "2.2720",
+        "Sortino Ratio": "3.4981",
+        "Mean Daily Return": "0.000789",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "0.2144",
+        "Max Drawdown": "-0.0373",
+        "RSI(14)": "55.4556"
+      },
+      {
+        "Ticker": "NZDUSD",
+        "Name": "NZDUSD",
+        "Sector": "FX",
+        "SubIndustry": "NZD",
+        "Annualized Sharpe": "-0.1350",
+        "Sortino Ratio": "-0.1911",
+        "Mean Daily Return": "-0.000047",
+        "Daily Volatility (Std)": "0.0055",
+        "CAGR": "-0.0154",
+        "Max Drawdown": "-0.0845",
+        "RSI(14)": "46.3357"
+      },
+      {
+        "Ticker": "NZDJPY",
+        "Name": "NZDJPY",
+        "Sector": "FX",
+        "SubIndustry": "NZD",
+        "Annualized Sharpe": "0.9459",
+        "Sortino Ratio": "1.3939",
+        "Mean Daily Return": "0.000325",
+        "Daily Volatility (Std)": "0.0054",
+        "CAGR": "0.0808",
+        "Max Drawdown": "-0.0397",
+        "RSI(14)": "58.8286"
+      },
+      {
+        "Ticker": "USDJPY",
+        "Name": "USDJPY",
+        "Sector": "FX",
+        "SubIndustry": "USD",
+        "Annualized Sharpe": "1.2009",
+        "Sortino Ratio": "1.6661",
+        "Mean Daily Return": "0.000400",
+        "Daily Volatility (Std)": "0.0053",
+        "CAGR": "0.1016",
+        "Max Drawdown": "-0.0436",
+        "RSI(14)": "82.2500"
+      },
+      {
+        "Ticker": "AUDUSD",
+        "Name": "AUDUSD",
+        "Sector": "FX",
+        "SubIndustry": "AUD",
+        "Annualized Sharpe": "1.2468",
+        "Sortino Ratio": "1.8482",
+        "Mean Daily Return": "0.000401",
+        "Daily Volatility (Std)": "0.0051",
+        "CAGR": "0.1023",
+        "Max Drawdown": "-0.0420",
+        "RSI(14)": "39.6419"
+      }
+    ]
+  },
+  "sector_summary": {
+    "available": true,
+    "metric": "Annualized Sharpe",
+    "best_by_mean": [
+      {
+        "Sector": "FX",
+        "mean": 0.7386,
+        "median": 0.7477,
+        "count": 14
+      }
+    ],
+    "worst_by_mean": [
+      {
+        "Sector": "FX",
+        "mean": 0.7386,
+        "median": 0.7477,
+        "count": 14
+      }
+    ]
+  }
+}
