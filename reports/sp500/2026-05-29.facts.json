@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "universe": "sp500",
+  "universe_size": 503,
+  "asof_date": "2026-05-29",
+  "lookback_trading_days": 252,
+  "primary_rank_metric": "Annualized Sharpe",
+  "distribution": {
+    "primary_metric": {
+      "available": true,
+      "column": "Annualized Sharpe",
+      "count": 503,
+      "min": "-2.3643",
+      "median": "0.4942",
+      "max": "4.0395"
+    },
+    "daily_volatility": {
+      "available": true,
+      "column": "Daily Volatility (Std)",
+      "count": 503,
+      "min": "0.0063",
+      "median": "0.0182",
+      "max": "0.0497"
+    },
+    "rsi14": {
+      "available": true,
+      "column": "RSI(14)",
+      "count": 503,
+      "min": "11.0966",
+      "median": "51.1905",
+      "max": "93.5748"
+    }
+  },
+  "extremes": {
+    "largest_drawdown": {
+      "available": true,
+      "column": "Max Drawdown",
+      "Ticker": "TTD",
+      "Name": "Trade Desk (The)",
+      "value": "-0.7762"
+    },
+    "rsi_high": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "NTAP",
+      "Name": "NetApp",
+      "value": "93.5748"
+    },
+    "rsi_low": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "UHS",
+      "Name": "Universal Health Services",
+      "value": "11.0966"
+    }
+  },
+  "leaders": {
+    "top_by_primary_metric": [
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "4.0395",
+        "Sortino Ratio": "7.3570",
+        "Mean Daily Return": "0.010156",
+        "Daily Volatility (Std)": "0.0399",
+        "CAGR": "9.4023",
+        "Max Drawdown": "-0.2059",
+        "RSI(14)": "63.7554"
+      },
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "3.8944",
+        "Sortino Ratio": "7.2483",
+        "Mean Daily Return": "0.010210",
+        "Daily Volatility (Std)": "0.0416",
+        "CAGR": "9.3754",
+        "Max Drawdown": "-0.3031",
+        "RSI(14)": "70.0941"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "3.5398",
+        "Sortino Ratio": "6.5721",
+        "Mean Daily Return": "0.008832",
+        "Daily Volatility (Std)": "0.0396",
+        "CAGR": "6.5197",
+        "Max Drawdown": "-0.2100",
+        "RSI(14)": "65.3046"
+      },
+      {
+        "Ticker": "LRCX",
+        "Name": "Lam Research",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductor Materials & Equipment",
+        "Annualized Sharpe": "3.0285",
+        "Sortino Ratio": "4.8814",
+        "Mean Daily Return": "0.005987",
+        "Daily Volatility (Std)": "0.0314",
+        "CAGR": "2.9599",
+        "Max Drawdown": "-0.2010",
+        "RSI(14)": "62.2301"
+      },
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar Inc.",
+        "Sector": "Industrials",
+        "SubIndustry": "Construction Machinery & Heavy Transportation Equipment",
+        "Annualized Sharpe": "2.9257",
+        "Sortino Ratio": "5.3287",
+        "Mean Daily Return": "0.003920",
+        "Daily Volatility (Std)": "0.0213",
+        "CAGR": "1.5259",
+        "Max Drawdown": "-0.1388",
+        "RSI(14)": "45.2857"
+      }
+    ],
+    "top_by_sortino": [
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "4.0395",
+        "Sortino Ratio": "7.3570",
+        "Mean Daily Return": "0.010156",
+        "Daily Volatility (Std)": "0.0399",
+        "CAGR": "9.4023",
+        "Max Drawdown": "-0.2059",
+        "RSI(14)": "63.7554"
+      },
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "3.8944",
+        "Sortino Ratio": "7.2483",
+        "Mean Daily Return": "0.010210",
+        "Daily Volatility (Std)": "0.0416",
+        "CAGR": "9.3754",
+        "Max Drawdown": "-0.3031",
+        "RSI(14)": "70.0941"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "3.5398",
+        "Sortino Ratio": "6.5721",
+        "Mean Daily Return": "0.008832",
+        "Daily Volatility (Std)": "0.0396",
+        "CAGR": "6.5197",
+        "Max Drawdown": "-0.2100",
+        "RSI(14)": "65.3046"
+      },
+      {
+        "Ticker": "GOOG",
+        "Name": "Alphabet Inc. (Class C)",
+        "Sector": "Communication Services",
+        "SubIndustry": "Interactive Media & Services",
+        "Annualized Sharpe": "2.9052",
+        "Sortino Ratio": "5.6598",
+        "Mean Daily Return": "0.003275",
+        "Daily Volatility (Std)": "0.0179",
+        "CAGR": "1.1845",
+        "Max Drawdown": "-0.2081",
+        "RSI(14)": "34.0304"
+      },
+      {
+        "Ticker": "GOOGL",
+        "Name": "Alphabet Inc. (Class A)",
+        "Sector": "Communication Services",
+        "SubIndustry": "Interactive Media & Services",
+        "Annualized Sharpe": "2.9060",
+        "Sortino Ratio": "5.6114",
+        "Mean Daily Return": "0.003349",
+        "Daily Volatility (Std)": "0.0183",
+        "CAGR": "1.2217",
+        "Max Drawdown": "-0.2042",
+        "RSI(14)": "35.0088"
+      }
+    ],
+    "top_by_cagr": [
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "4.0395",
+        "Sortino Ratio": "7.3570",
+        "Mean Daily Return": "0.010156",
+        "Daily Volatility (Std)": "0.0399",
+        "CAGR": "9.4023",
+        "Max Drawdown": "-0.2059",
+        "RSI(14)": "63.7554"
+      },
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "3.8944",
+        "Sortino Ratio": "7.2483",
+        "Mean Daily Return": "0.010210",
+        "Daily Volatility (Std)": "0.0416",
+        "CAGR": "9.3754",
+        "Max Drawdown": "-0.3031",
+        "RSI(14)": "70.0941"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "3.5398",
+        "Sortino Ratio": "6.5721",
+        "Mean Daily Return": "0.008832",
+        "Daily Volatility (Std)": "0.0396",
+        "CAGR": "6.5197",
+        "Max Drawdown": "-0.2100",
+        "RSI(14)": "65.3046"
+      },
+      {
+        "Ticker": "INTC",
+        "Name": "Intel",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.8366",
+        "Sortino Ratio": "5.4276",
+        "Mean Daily Return": "0.008088",
+        "Daily Volatility (Std)": "0.0453",
+        "CAGR": "4.9075",
+        "Max Drawdown": "-0.2417",
+        "RSI(14)": "39.9411"
+      },
+      {
+        "Ticker": "TER",
+        "Name": "Teradyne",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductor Materials & Equipment",
+        "Annualized Sharpe": "2.7555",
+        "Sortino Ratio": "4.7714",
+        "Mean Daily Return": "0.007081",
+        "Daily Volatility (Std)": "0.0408",
+        "CAGR": "3.7947",
+        "Max Drawdown": "-0.2673",
+        "RSI(14)": "54.6515"
+      }
+    ],
+    "worst_by_max_drawdown": [
+      {
+        "Ticker": "TTD",
+        "Name": "Trade Desk (The)",
+        "Sector": "Communication Services",
+        "SubIndustry": "Advertising",
+        "Annualized Sharpe": "-1.6298",
+        "Sortino Ratio": "-1.9326",
+        "Mean Daily Return": "-0.004091",
+        "Daily Volatility (Std)": "0.0399",
+        "CAGR": "-0.7148",
+        "Max Drawdown": "-0.7762",
+        "RSI(14)": "41.5556"
+      },
+      {
+        "Ticker": "FI",
+        "Name": "Fiserv",
+        "Sector": "Financials",
+        "SubIndustry": "Transaction & Payment Processing Services",
+        "Annualized Sharpe": "-1.5573",
+        "Sortino Ratio": "-1.6609",
+        "Mean Daily Return": "-0.003434",
+        "Daily Volatility (Std)": "0.0350",
+        "CAGR": "-0.6541",
+        "Max Drawdown": "-0.7017",
+        "RSI(14)": "53.8909"
+      },
+      {
+        "Ticker": "IT",
+        "Name": "Gartner",
+        "Sector": "Information Technology",
+        "SubIndustry": "IT Consulting & Other Services",
+        "Annualized Sharpe": "-1.6735",
+        "Sortino Ratio": "-1.9037",
+        "Mean Daily Return": "-0.003388",
+        "Daily Volatility (Std)": "0.0321",
+        "CAGR": "-0.6298",
+        "Max Drawdown": "-0.6777",
+        "RSI(14)": "53.6336"
+      },
+      {
+        "Ticker": "CSGP",
+        "Name": "CoStar Group",
+        "Sector": "Real Estate",
+        "SubIndustry": "Real Estate Services",
+        "Annualized Sharpe": "-1.9609",
+        "Sortino Ratio": "-2.2844",
+        "Mean Daily Return": "-0.002997",
+        "Daily Volatility (Std)": "0.0243",
+        "CAGR": "-0.5637",
+        "Max Drawdown": "-0.6711",
+        "RSI(14)": "44.8087"
+      },
+      {
+        "Ticker": "CHTR",
+        "Name": "Charter Communications",
+        "Sector": "Communication Services",
+        "SubIndustry": "Cable & Satellite",
+        "Annualized Sharpe": "-1.8548",
+        "Sortino Ratio": "-2.1171",
+        "Mean Daily Return": "-0.003544",
+        "Daily Volatility (Std)": "0.0303",
+        "CAGR": "-0.6379",
+        "Max Drawdown": "-0.6645",
+        "RSI(14)": "37.8839"
+      }
+    ],
+    "top_by_volatility": [
+      {
+        "Ticker": "SMCI",
+        "Name": "Supermicro",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "0.5896",
+        "Sortino Ratio": "0.8348",
+        "Mean Daily Return": "0.001845",
+        "Daily Volatility (Std)": "0.0497",
+        "CAGR": "0.1523",
+        "Max Drawdown": "-0.6618",
+        "RSI(14)": "73.9286"
+      },
+      {
+        "Ticker": "INTC",
+        "Name": "Intel",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.8366",
+        "Sortino Ratio": "5.4276",
+        "Mean Daily Return": "0.008088",
+        "Daily Volatility (Std)": "0.0453",
+        "CAGR": "4.9075",
+        "Max Drawdown": "-0.2417",
+        "RSI(14)": "39.9411"
+      },
+      {
+        "Ticker": "APP",
+        "Name": "AppLovin",
+        "Sector": "Information Technology",
+        "SubIndustry": "Application Software",
+        "Annualized Sharpe": "0.9942",
+        "Sortino Ratio": "1.3795",
+        "Mean Daily Return": "0.002796",
+        "Daily Volatility (Std)": "0.0446",
+        "CAGR": "0.5628",
+        "Max Drawdown": "-0.4999",
+        "RSI(14)": "76.2342"
+      },
+      {
+        "Ticker": "COIN",
+        "Name": "Coinbase",
+        "Sector": "Financials",
+        "SubIndustry": "Financial Exchanges & Data",
+        "Annualized Sharpe": "-0.0376",
+        "Sortino Ratio": "-0.0564",
+        "Mean Daily Return": "-0.000104",
+        "Daily Volatility (Std)": "0.0441",
+        "CAGR": "-0.2343",
+        "Max Drawdown": "-0.6639",
+        "RSI(14)": "44.3046"
+      },
+      {
+        "Ticker": "HOOD",
+        "Name": "Robinhood Markets",
+        "Sector": "Financials",
+        "SubIndustry": "Investment Banking & Brokerage",
+        "Annualized Sharpe": "0.8609",
+        "Sortino Ratio": "1.3173",
+        "Mean Daily Return": "0.002339",
+        "Daily Volatility (Std)": "0.0431",
+        "CAGR": "0.4276",
+        "Max Drawdown": "-0.5726",
+        "RSI(14)": "70.0861"
+      }
+    ]
+  },
+  "sector_summary": {
+    "available": true,
+    "metric": "Annualized Sharpe",
+    "best_by_mean": [
+      {
+        "Sector": "Energy",
+        "mean": 1.1953,
+        "median": 1.3195,
+        "count": 22
+      },
+      {
+        "Sector": "Information Technology",
+        "mean": 0.9042,
+        "median": 1.052,
+        "count": 68
+      },
+      {
+        "Sector": "Materials",
+        "mean": 0.5747,
+        "median": 0.3794,
+        "count": 26
+      },
+      {
+        "Sector": "Utilities",
+        "mean": 0.566,
+        "median": 0.648,
+        "count": 31
+      },
+      {
+        "Sector": "Industrials",
+        "mean": 0.4578,
+        "median": 0.714,
+        "count": 79
+      }
+    ],
+    "worst_by_mean": [
+      {
+        "Sector": "Consumer Staples",
+        "mean": -0.0748,
+        "median": -0.1433,
+        "count": 37
+      },
+      {
+        "Sector": "Real Estate",
+        "mean": 0.1966,
+        "median": -0.0638,
+        "count": 31
+      },
+      {
+        "Sector": "Consumer Discretionary",
+        "mean": 0.276,
+        "median": 0.3956,
+        "count": 50
+      },
+      {
+        "Sector": "Financials",
+        "mean": 0.2808,
+        "median": 0.3187,
+        "count": 75
+      },
+      {
+        "Sector": "Health Care",
+        "mean": 0.3079,
+        "median": 0.4459,
+        "count": 60
+      }
+    ]
+  }
+}
