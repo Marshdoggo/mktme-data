@@ -1,0 +1,2864 @@
+{
+  "schema_version": 1,
+  "universe": "dow30",
+  "universe_size": 30,
+  "asof_date": "2026-06-04",
+  "lookback_trading_days": 252,
+  "primary_rank_metric": "Annualized Sharpe",
+  "distribution": {
+    "primary_metric": {
+      "available": true,
+      "column": "Annualized Sharpe",
+      "count": 30,
+      "min": "-0.7603",
+      "median": "0.5186",
+      "max": "3.1005"
+    },
+    "daily_volatility": {
+      "available": true,
+      "column": "Daily Volatility (Std)",
+      "count": 30,
+      "min": "0.0102",
+      "median": "0.0157",
+      "max": "0.0254"
+    },
+    "rsi14": {
+      "available": true,
+      "column": "RSI(14)",
+      "count": 30,
+      "min": "25.7096",
+      "median": "49.8179",
+      "max": "78.6677"
+    }
+  },
+  "extremes": {
+    "largest_drawdown": {
+      "available": true,
+      "column": "Max Drawdown",
+      "Ticker": "NKE",
+      "Name": "Nike",
+      "value": "-0.4715"
+    },
+    "rsi_high": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "IBM",
+      "Name": "IBM",
+      "value": "78.6677"
+    },
+    "rsi_low": {
+      "available": true,
+      "column": "RSI(14)",
+      "Ticker": "WMT",
+      "Name": "Walmart",
+      "value": "25.7096"
+    }
+  },
+  "leaderboard_context": {
+    "available": true,
+    "metrics": {
+      "Annualized Sharpe": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 3.100534
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 2.495857
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 2.445819
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 2.286886
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 2.090852
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "GS",
+            "name": "GS",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "AAPL",
+            "name": "AAPL",
+            "sector": "DOW30",
+            "days_in_top_5": 8,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 10,
+            "previous_rank": 13,
+            "rank_change": 3,
+            "metric_value": 0.905888
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 20,
+            "rank_change": 3,
+            "metric_value": 0.340353
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "DOW30",
+            "rank": 25,
+            "previous_rank": 27,
+            "rank_change": 2,
+            "metric_value": -0.5943
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 21,
+            "rank_change": 2,
+            "metric_value": 0.282569
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 15,
+            "previous_rank": 17,
+            "rank_change": 2,
+            "metric_value": 0.525811
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 16,
+            "rank_change": -4,
+            "metric_value": 0.268512
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 18,
+            "rank_change": -3,
+            "metric_value": 0.195442
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "DOW30",
+            "rank": 29,
+            "previous_rank": 26,
+            "rank_change": -3,
+            "metric_value": -0.730618
+          },
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "DOW30",
+            "rank": 11,
+            "previous_rank": 9,
+            "rank_change": -2,
+            "metric_value": 0.898812
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "DOW30",
+            "rank": 26,
+            "previous_rank": 24,
+            "rank_change": -2,
+            "metric_value": -0.629827
+          }
+        ],
+        "has_previous": true
+      },
+      "Sortino Ratio": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 5.705098
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 4.245215
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 3.98963
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 3.574014
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 3.467722
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 14,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "AAPL",
+            "name": "AAPL",
+            "sector": "DOW30",
+            "days_in_top_5": 12,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "GS",
+            "name": "GS",
+            "sector": "DOW30",
+            "days_in_top_5": 10,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 10,
+            "previous_rank": 13,
+            "rank_change": 3,
+            "metric_value": 1.317977
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 20,
+            "rank_change": 3,
+            "metric_value": 0.464735
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "DOW30",
+            "rank": 25,
+            "previous_rank": 28,
+            "rank_change": 3,
+            "metric_value": -0.867068
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 28,
+            "previous_rank": 30,
+            "rank_change": 2,
+            "metric_value": -0.97845
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 15,
+            "previous_rank": 17,
+            "rank_change": 2,
+            "metric_value": 0.763882
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 18,
+            "rank_change": -3,
+            "metric_value": 0.286638
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "DOW30",
+            "rank": 29,
+            "previous_rank": 26,
+            "rank_change": -3,
+            "metric_value": -0.98414
+          },
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 16,
+            "rank_change": -3,
+            "metric_value": 0.43637
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "DOW30",
+            "rank": 13,
+            "previous_rank": 11,
+            "rank_change": -2,
+            "metric_value": 1.205267
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 14,
+            "previous_rank": 12,
+            "rank_change": -2,
+            "metric_value": 0.898879
+          }
+        ],
+        "has_previous": true
+      },
+      "CAGR": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 1.705761
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 1.017371
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.807585
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 0.564746
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 0.55398
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "GS",
+            "name": "GS",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 9,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 20,
+            "rank_change": 3,
+            "metric_value": 0.056217
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 21,
+            "rank_change": 2,
+            "metric_value": 0.040351
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 17,
+            "rank_change": 1,
+            "metric_value": 0.08303
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 19,
+            "rank_change": 1,
+            "metric_value": 0.044691
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 0.564746
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 16,
+            "rank_change": -4,
+            "metric_value": 0.036406
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 18,
+            "rank_change": -3,
+            "metric_value": 0.018808
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 0.55398
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "rank": 14,
+            "previous_rank": 13,
+            "rank_change": -1,
+            "metric_value": 0.131372
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 24,
+            "previous_rank": 23,
+            "rank_change": -1,
+            "metric_value": -0.117793
+          }
+        ],
+        "has_previous": true
+      },
+      "Mean Daily Return": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.0042
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.002978
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.002513
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.002017
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 0.0019
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 5,
+            "metric_value": 0.0019
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "metric_value": 0.001801
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "GS",
+            "name": "GS",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MRK",
+            "name": "MRK",
+            "sector": "DOW30",
+            "days_in_top_5": 8,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 21,
+            "rank_change": 4,
+            "metric_value": 0.000358
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 15,
+            "previous_rank": 17,
+            "rank_change": 2,
+            "metric_value": 0.000385
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 20,
+            "rank_change": 2,
+            "metric_value": 0.000357
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 11,
+            "previous_rank": 12,
+            "rank_change": 1,
+            "metric_value": 0.00089
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 0.0019
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 16,
+            "rank_change": -4,
+            "metric_value": 0.000246
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "rank": 13,
+            "previous_rank": 11,
+            "rank_change": -2,
+            "metric_value": 0.000796
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 19,
+            "rank_change": -2,
+            "metric_value": 0.000177
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "DOW30",
+            "rank": 28,
+            "previous_rank": 26,
+            "rank_change": -2,
+            "metric_value": -0.00059
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 18,
+            "rank_change": -1,
+            "metric_value": 0.000309
+          }
+        ],
+        "has_previous": true
+      },
+      "Daily Volatility (Std)": {
+        "current": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.010215
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.010393
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.010635
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.011385
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.011629
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "KO",
+            "name": "KO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MCD",
+            "name": "MCD",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "PG",
+            "name": "PG",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "TRV",
+            "name": "TRV",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 21,
+            "rank_change": 2,
+            "metric_value": 0.01729
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "DOW30",
+            "rank": 7,
+            "previous_rank": 8,
+            "rank_change": 1,
+            "metric_value": 0.014005
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 18,
+            "rank_change": 1,
+            "metric_value": 0.016459
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.011385
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.010635
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "DOW30",
+            "rank": 8,
+            "previous_rank": 7,
+            "rank_change": -1,
+            "metric_value": 0.014052
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 20,
+            "rank_change": -1,
+            "metric_value": 0.017443
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 19,
+            "rank_change": -1,
+            "metric_value": 0.017291
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 17,
+            "rank_change": -1,
+            "metric_value": 0.016635
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.011385
+          }
+        ],
+        "has_previous": true
+      },
+      "Max Drawdown": {
+        "current": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.085761
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": -0.092329
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.109591
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": -0.119019
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.135746
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "KO",
+            "name": "KO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "TRV",
+            "name": "TRV",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MRK",
+            "name": "MRK",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "WMT",
+            "name": "WMT",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 12,
+            "previous_rank": 13,
+            "rank_change": 1,
+            "metric_value": -0.161543
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.085761
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.109591
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": -0.119019
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.135746
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 13,
+            "previous_rank": 12,
+            "rank_change": -1,
+            "metric_value": -0.165679
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.085761
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.109591
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": -0.092329
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.135746
+          }
+        ],
+        "has_previous": true
+      },
+      "Downside Deviation": {
+        "current": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.006127
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.00657
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.007608
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.008005
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.00838
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "KO",
+            "name": "KO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MCD",
+            "name": "MCD",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "TRV",
+            "name": "TRV",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "PG",
+            "name": "PG",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 9,
+            "previous_rank": 10,
+            "rank_change": 1,
+            "metric_value": 0.009776
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.006127
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.007608
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.008005
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.00838
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 10,
+            "previous_rank": 9,
+            "rank_change": -1,
+            "metric_value": 0.009786
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.006127
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.007608
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.00657
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.00838
+          }
+        ],
+        "has_previous": true
+      },
+      "RSI(14)": {
+        "current": [
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 78.667666
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 3,
+            "rank_change": 1,
+            "metric_value": 74.185356
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 72.091603
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 65.854832
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 8,
+            "rank_change": 3,
+            "metric_value": 64.982374
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 5,
+            "metric_value": 64.982374
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "DOW30",
+            "rank": 4,
+            "metric_value": 65.827465
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "AAPL",
+            "name": "AAPL",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "KO",
+            "name": "KO",
+            "sector": "DOW30",
+            "days_in_top_5": 9,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "UNH",
+            "name": "UNH",
+            "sector": "DOW30",
+            "days_in_top_5": 9,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "days_in_top_5": 7,
+            "days_in_top_10": 10
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 17,
+            "previous_rank": 30,
+            "rank_change": 13,
+            "metric_value": 48.068989
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 25,
+            "rank_change": 9,
+            "metric_value": 49.716055
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 8,
+            "previous_rank": 15,
+            "rank_change": 7,
+            "metric_value": 60.777406
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 7,
+            "previous_rank": 13,
+            "rank_change": 6,
+            "metric_value": 61.116521
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 9,
+            "previous_rank": 14,
+            "rank_change": 5,
+            "metric_value": 58.243888
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 27,
+            "previous_rank": 18,
+            "rank_change": -9,
+            "metric_value": 33.681068
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 28,
+            "previous_rank": 21,
+            "rank_change": -7,
+            "metric_value": 32.22331
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "DOW30",
+            "rank": 12,
+            "previous_rank": 6,
+            "rank_change": -6,
+            "metric_value": 55.299022
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 26,
+            "previous_rank": 20,
+            "rank_change": -6,
+            "metric_value": 35.851547
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 15,
+            "previous_rank": 10,
+            "rank_change": -5,
+            "metric_value": 49.919711
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 50DMA": {
+        "current": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 34.085588
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 23.301067
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 17.243852
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 6,
+            "rank_change": 2,
+            "metric_value": 14.257143
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 13.078418
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 4,
+            "metric_value": 14.257143
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "metric_value": 11.223759
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "UNH",
+            "name": "UNH",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "AMZN",
+            "name": "AMZN",
+            "sector": "DOW30",
+            "days_in_top_5": 11,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 11,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "sector": "DOW30",
+            "days_in_top_5": 11,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 26,
+            "rank_change": 10,
+            "metric_value": -0.525493
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 10,
+            "previous_rank": 17,
+            "rank_change": 7,
+            "metric_value": 3.539776
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 27,
+            "rank_change": 7,
+            "metric_value": -1.546849
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 25,
+            "rank_change": 6,
+            "metric_value": -1.479045
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 12,
+            "previous_rank": 16,
+            "rank_change": 4,
+            "metric_value": 2.312693
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell",
+            "sector": "DOW30",
+            "rank": 24,
+            "previous_rank": 13,
+            "rank_change": -11,
+            "metric_value": -2.508249
+          },
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 27,
+            "previous_rank": 19,
+            "rank_change": -8,
+            "metric_value": -5.737274
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 11,
+            "rank_change": -7,
+            "metric_value": -1.450153
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "DOW30",
+            "rank": 23,
+            "previous_rank": 20,
+            "rank_change": -3,
+            "metric_value": -2.43797
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "DOW30",
+            "rank": 14,
+            "previous_rank": 12,
+            "rank_change": -2,
+            "metric_value": 1.325018
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 200DMA": {
+        "current": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 62.468827
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 45.691518
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 26.962719
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 20.698075
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 17.529909
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CSCO",
+            "name": "CSCO",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "UNH",
+            "name": "UNH",
+            "sector": "DOW30",
+            "days_in_top_5": 13,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "sector": "DOW30",
+            "days_in_top_5": 10,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "AMZN",
+            "name": "AMZN",
+            "sector": "DOW30",
+            "days_in_top_5": 9,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 11,
+            "previous_rank": 13,
+            "rank_change": 2,
+            "metric_value": 7.195442
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 7,
+            "previous_rank": 9,
+            "rank_change": 2,
+            "metric_value": 15.912694
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 13,
+            "previous_rank": 15,
+            "rank_change": 2,
+            "metric_value": 5.01599
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 20.698075
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 17,
+            "rank_change": 1,
+            "metric_value": 1.838861
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 12,
+            "rank_change": -6,
+            "metric_value": 1.187664
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "DOW30",
+            "rank": 8,
+            "previous_rank": 7,
+            "rank_change": -1,
+            "metric_value": 10.94697
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 12,
+            "previous_rank": 11,
+            "rank_change": -1,
+            "metric_value": 5.046383
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 17.529909
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "DOW30",
+            "rank": 25,
+            "previous_rank": 24,
+            "rank_change": -1,
+            "metric_value": -8.007999
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Skewness": {
+        "current": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 2.027685
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.968628
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.792912
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 0.686195
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 0.681292
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "VZ",
+            "name": "VZ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CAT",
+            "name": "CAT",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "AMGN",
+            "name": "AMGN",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MRK",
+            "name": "MRK",
+            "sector": "DOW30",
+            "days_in_top_5": 11,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "DOW30",
+            "rank": 6,
+            "previous_rank": 7,
+            "rank_change": 1,
+            "metric_value": 0.511345
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 0.686195
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "DOW30",
+            "rank": 7,
+            "previous_rank": 8,
+            "rank_change": 1,
+            "metric_value": 0.506253
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "DOW30",
+            "rank": 23,
+            "previous_rank": 24,
+            "rank_change": 1,
+            "metric_value": -0.129081
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "DOW30",
+            "rank": 19,
+            "previous_rank": 20,
+            "rank_change": 1,
+            "metric_value": -0.022681
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 8,
+            "previous_rank": 6,
+            "rank_change": -2,
+            "metric_value": 0.503504
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 0.681292
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 15,
+            "rank_change": -1,
+            "metric_value": 0.127416
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 19,
+            "rank_change": -1,
+            "metric_value": -0.039038
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "DOW30",
+            "rank": 24,
+            "previous_rank": 23,
+            "rank_change": -1,
+            "metric_value": -0.163001
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Kurtosis (Fisher)": {
+        "current": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.169711
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.421224
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.55623
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.723758
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.961963
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "PG",
+            "name": "PG",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "MCD",
+            "name": "MCD",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "TRV",
+            "name": "TRV",
+            "sector": "DOW30",
+            "days_in_top_5": 16,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "CRM",
+            "name": "CRM",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "DOW30",
+            "rank": 18,
+            "previous_rank": 20,
+            "rank_change": 2,
+            "metric_value": 3.674892
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "DOW30",
+            "rank": 14,
+            "previous_rank": 15,
+            "rank_change": 1,
+            "metric_value": 2.555343
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 21,
+            "previous_rank": 22,
+            "rank_change": 1,
+            "metric_value": 3.960134
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.723758
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.55623
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "DOW30",
+            "rank": 20,
+            "previous_rank": 18,
+            "rank_change": -2,
+            "metric_value": 3.728541
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "DOW30",
+            "rank": 15,
+            "previous_rank": 14,
+            "rank_change": -1,
+            "metric_value": 2.577738
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "DOW30",
+            "rank": 22,
+            "previous_rank": 21,
+            "rank_change": -1,
+            "metric_value": 4.023213
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.169711
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.961963
+          }
+        ],
+        "has_previous": true
+      },
+      "Bollinger Bandwidth (20)": {
+        "current": [
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 4,
+            "rank_change": 3,
+            "metric_value": 0.047224
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "DOW30",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.050401
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "DOW30",
+            "rank": 3,
+            "previous_rank": 5,
+            "rank_change": 2,
+            "metric_value": 0.051653
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 7,
+            "rank_change": 3,
+            "metric_value": 0.05884
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 0.061649
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "metric_value": 0.05884
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 1,
+            "metric_value": 0.050304
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "VZ",
+            "name": "VZ",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "TRV",
+            "name": "TRV",
+            "sector": "DOW30",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "JNJ",
+            "name": "JNJ",
+            "sector": "DOW30",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "AXP",
+            "name": "AXP",
+            "sector": "DOW30",
+            "days_in_top_5": 7,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "PG",
+            "name": "PG",
+            "sector": "DOW30",
+            "days_in_top_5": 6,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "DOW30",
+            "rank": 1,
+            "previous_rank": 4,
+            "rank_change": 3,
+            "metric_value": 0.047224
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "DOW30",
+            "rank": 4,
+            "previous_rank": 7,
+            "rank_change": 3,
+            "metric_value": 0.05884
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "DOW30",
+            "rank": 11,
+            "previous_rank": 14,
+            "rank_change": 3,
+            "metric_value": 0.087563
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "DOW30",
+            "rank": 14,
+            "previous_rank": 17,
+            "rank_change": 3,
+            "metric_value": 0.094339
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "DOW30",
+            "rank": 6,
+            "previous_rank": 8,
+            "rank_change": 2,
+            "metric_value": 0.06352
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "DOW30",
+            "rank": 9,
+            "previous_rank": 1,
+            "rank_change": -8,
+            "metric_value": 0.071638
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "DOW30",
+            "rank": 16,
+            "previous_rank": 12,
+            "rank_change": -4,
+            "metric_value": 0.096845
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "DOW30",
+            "rank": 8,
+            "previous_rank": 6,
+            "rank_change": -2,
+            "metric_value": 0.071417
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "DOW30",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 0.061649
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "DOW30",
+            "rank": 13,
+            "previous_rank": 11,
+            "rank_change": -2,
+            "metric_value": 0.091062
+          }
+        ],
+        "has_previous": true
+      }
+    },
+    "artifact_path": "leaderboards/dow30/lookback_252.parquet",
+    "rows_added": 390
+  },
+  "leaders": {
+    "top_by_primary_metric": [
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "3.1005",
+        "Sortino Ratio": "5.7051",
+        "Mean Daily Return": "0.004200",
+        "Daily Volatility (Std)": "0.0215",
+        "CAGR": "1.7058",
+        "Max Drawdown": "-0.1388",
+        "RSI(14)": "54.1728"
+      },
+      {
+        "Ticker": "CSCO",
+        "Name": "Cisco",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.4959",
+        "Sortino Ratio": "3.9896",
+        "Mean Daily Return": "0.002978",
+        "Daily Volatility (Std)": "0.0189",
+        "CAGR": "1.0174",
+        "Max Drawdown": "-0.1357",
+        "RSI(14)": "72.0916"
+      },
+      {
+        "Ticker": "JNJ",
+        "Name": "Johnson & Johnson",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.4458",
+        "Sortino Ratio": "4.2452",
+        "Mean Daily Return": "0.001639",
+        "Daily Volatility (Std)": "0.0106",
+        "CAGR": "0.4872",
+        "Max Drawdown": "-0.1096",
+        "RSI(14)": "45.8945"
+      },
+      {
+        "Ticker": "GS",
+        "Name": "Goldman Sachs",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.2869",
+        "Sortino Ratio": "3.5740",
+        "Mean Daily Return": "0.002513",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.8076",
+        "Max Drawdown": "-0.1984",
+        "RSI(14)": "74.1854"
+      },
+      {
+        "Ticker": "AAPL",
+        "Name": "Apple",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0909",
+        "Sortino Ratio": "3.4677",
+        "Mean Daily Return": "0.001856",
+        "Daily Volatility (Std)": "0.0141",
+        "CAGR": "0.5540",
+        "Max Drawdown": "-0.1382",
+        "RSI(14)": "65.8548"
+      }
+    ],
+    "top_by_sortino": [
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "3.1005",
+        "Sortino Ratio": "5.7051",
+        "Mean Daily Return": "0.004200",
+        "Daily Volatility (Std)": "0.0215",
+        "CAGR": "1.7058",
+        "Max Drawdown": "-0.1388",
+        "RSI(14)": "54.1728"
+      },
+      {
+        "Ticker": "JNJ",
+        "Name": "Johnson & Johnson",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.4458",
+        "Sortino Ratio": "4.2452",
+        "Mean Daily Return": "0.001639",
+        "Daily Volatility (Std)": "0.0106",
+        "CAGR": "0.4872",
+        "Max Drawdown": "-0.1096",
+        "RSI(14)": "45.8945"
+      },
+      {
+        "Ticker": "CSCO",
+        "Name": "Cisco",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.4959",
+        "Sortino Ratio": "3.9896",
+        "Mean Daily Return": "0.002978",
+        "Daily Volatility (Std)": "0.0189",
+        "CAGR": "1.0174",
+        "Max Drawdown": "-0.1357",
+        "RSI(14)": "72.0916"
+      },
+      {
+        "Ticker": "GS",
+        "Name": "Goldman Sachs",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.2869",
+        "Sortino Ratio": "3.5740",
+        "Mean Daily Return": "0.002513",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.8076",
+        "Max Drawdown": "-0.1984",
+        "RSI(14)": "74.1854"
+      },
+      {
+        "Ticker": "AAPL",
+        "Name": "Apple",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0909",
+        "Sortino Ratio": "3.4677",
+        "Mean Daily Return": "0.001856",
+        "Daily Volatility (Std)": "0.0141",
+        "CAGR": "0.5540",
+        "Max Drawdown": "-0.1382",
+        "RSI(14)": "65.8548"
+      }
+    ],
+    "top_by_cagr": [
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "3.1005",
+        "Sortino Ratio": "5.7051",
+        "Mean Daily Return": "0.004200",
+        "Daily Volatility (Std)": "0.0215",
+        "CAGR": "1.7058",
+        "Max Drawdown": "-0.1388",
+        "RSI(14)": "54.1728"
+      },
+      {
+        "Ticker": "CSCO",
+        "Name": "Cisco",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.4959",
+        "Sortino Ratio": "3.9896",
+        "Mean Daily Return": "0.002978",
+        "Daily Volatility (Std)": "0.0189",
+        "CAGR": "1.0174",
+        "Max Drawdown": "-0.1357",
+        "RSI(14)": "72.0916"
+      },
+      {
+        "Ticker": "GS",
+        "Name": "Goldman Sachs",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.2869",
+        "Sortino Ratio": "3.5740",
+        "Mean Daily Return": "0.002513",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.8076",
+        "Max Drawdown": "-0.1984",
+        "RSI(14)": "74.1854"
+      },
+      {
+        "Ticker": "NVDA",
+        "Name": "Nvidia",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.4834",
+        "Sortino Ratio": "2.2741",
+        "Mean Daily Return": "0.002017",
+        "Daily Volatility (Std)": "0.0216",
+        "CAGR": "0.5647",
+        "Max Drawdown": "-0.2022",
+        "RSI(14)": "35.8515"
+      },
+      {
+        "Ticker": "AAPL",
+        "Name": "Apple",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0909",
+        "Sortino Ratio": "3.4677",
+        "Mean Daily Return": "0.001856",
+        "Daily Volatility (Std)": "0.0141",
+        "CAGR": "0.5540",
+        "Max Drawdown": "-0.1382",
+        "RSI(14)": "65.8548"
+      }
+    ],
+    "worst_by_max_drawdown": [
+      {
+        "Ticker": "NKE",
+        "Name": "Nike",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.7603",
+        "Sortino Ratio": "-1.0395",
+        "Mean Daily Return": "-0.001156",
+        "Daily Volatility (Std)": "0.0241",
+        "CAGR": "-0.3050",
+        "Max Drawdown": "-0.4715",
+        "RSI(14)": "58.1301"
+      },
+      {
+        "Ticker": "CRM",
+        "Name": "Salesforce",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.7306",
+        "Sortino Ratio": "-0.9841",
+        "Mean Daily Return": "-0.001102",
+        "Daily Volatility (Std)": "0.0239",
+        "CAGR": "-0.2944",
+        "Max Drawdown": "-0.3991",
+        "RSI(14)": "63.5064"
+      },
+      {
+        "Ticker": "MSFT",
+        "Name": "Microsoft",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.2269",
+        "Sortino Ratio": "-0.3007",
+        "Mean Daily Return": "-0.000227",
+        "Daily Volatility (Std)": "0.0159",
+        "CAGR": "-0.0851",
+        "Max Drawdown": "-0.3418",
+        "RSI(14)": "58.1667"
+      },
+      {
+        "Ticker": "IBM",
+        "Name": "IBM",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.5114",
+        "Sortino Ratio": "0.7418",
+        "Mean Daily Return": "0.000796",
+        "Daily Volatility (Std)": "0.0247",
+        "CAGR": "0.1314",
+        "Max Drawdown": "-0.3186",
+        "RSI(14)": "78.6677"
+      },
+      {
+        "Ticker": "UNH",
+        "Name": "UnitedHealth Group",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.9379",
+        "Sortino Ratio": "1.3180",
+        "Mean Daily Return": "0.001502",
+        "Daily Volatility (Std)": "0.0254",
+        "CAGR": "0.3417",
+        "Max Drawdown": "-0.2998",
+        "RSI(14)": "48.0690"
+      }
+    ],
+    "top_by_volatility": [
+      {
+        "Ticker": "UNH",
+        "Name": "UnitedHealth Group",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.9379",
+        "Sortino Ratio": "1.3180",
+        "Mean Daily Return": "0.001502",
+        "Daily Volatility (Std)": "0.0254",
+        "CAGR": "0.3417",
+        "Max Drawdown": "-0.2998",
+        "RSI(14)": "48.0690"
+      },
+      {
+        "Ticker": "IBM",
+        "Name": "IBM",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.5114",
+        "Sortino Ratio": "0.7418",
+        "Mean Daily Return": "0.000796",
+        "Daily Volatility (Std)": "0.0247",
+        "CAGR": "0.1314",
+        "Max Drawdown": "-0.3186",
+        "RSI(14)": "78.6677"
+      },
+      {
+        "Ticker": "NKE",
+        "Name": "Nike",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.7603",
+        "Sortino Ratio": "-1.0395",
+        "Mean Daily Return": "-0.001156",
+        "Daily Volatility (Std)": "0.0241",
+        "CAGR": "-0.3050",
+        "Max Drawdown": "-0.4715",
+        "RSI(14)": "58.1301"
+      },
+      {
+        "Ticker": "CRM",
+        "Name": "Salesforce",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.7306",
+        "Sortino Ratio": "-0.9841",
+        "Mean Daily Return": "-0.001102",
+        "Daily Volatility (Std)": "0.0239",
+        "CAGR": "-0.2944",
+        "Max Drawdown": "-0.3991",
+        "RSI(14)": "63.5064"
+      },
+      {
+        "Ticker": "NVDA",
+        "Name": "Nvidia",
+        "Sector": "DOW30",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.4834",
+        "Sortino Ratio": "2.2741",
+        "Mean Daily Return": "0.002017",
+        "Daily Volatility (Std)": "0.0216",
+        "CAGR": "0.5647",
+        "Max Drawdown": "-0.2022",
+        "RSI(14)": "35.8515"
+      }
+    ]
+  },
+  "sector_summary": {
+    "available": true,
+    "metric": "Annualized Sharpe",
+    "best_by_mean": [
+      {
+        "Sector": "DOW30",
+        "mean": 0.6448,
+        "median": 0.5186,
+        "count": 30
+      }
+    ],
+    "worst_by_mean": [
+      {
+        "Sector": "DOW30",
+        "mean": 0.6448,
+        "median": 0.5186,
+        "count": 30
+      }
+    ]
+  }
+}
