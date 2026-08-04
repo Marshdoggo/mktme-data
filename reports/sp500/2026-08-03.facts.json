@@ -1,0 +1,4838 @@
+{
+  "schema_version": 1,
+  "universe": "sp500",
+  "universe_size": 501,
+  "asof_date": "2026-08-03",
+  "lookback_trading_days": 252,
+  "primary_rank_metric": "Annualized Sharpe",
+  "distribution": {
+    "primary_metric": {
+      "available": true,
+      "column": "Annualized Sharpe",
+      "count": 501,
+      "min": "-2.5932",
+      "median": "0.5106",
+      "max": "2.9452"
+    },
+    "daily_volatility": {
+      "available": true,
+      "column": "Daily Volatility (Std)",
+      "count": 501,
+      "min": "0.0091",
+      "median": "0.0193",
+      "max": "0.0566"
+    },
+    "rsi14": {
+      "available": false,
+      "column": "RSI(14)"
+    }
+  },
+  "extremes": {
+    "largest_drawdown": {
+      "available": true,
+      "column": "Max Drawdown",
+      "Ticker": "TTD",
+      "Name": "Trade Desk (The)",
+      "value": "-0.8129"
+    },
+    "rsi_high": {
+      "available": false,
+      "column": "RSI(14)"
+    },
+    "rsi_low": {
+      "available": false,
+      "column": "RSI(14)"
+    }
+  },
+  "leaderboard_context": {
+    "available": true,
+    "metrics": {
+      "Annualized Sharpe": {
+        "current": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 2.945178
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 2.899304
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 2.701104
+          },
+          {
+            "ticker": "VLO",
+            "name": "Valero Energy",
+            "sector": "Energy",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 2.496861
+          },
+          {
+            "ticker": "ROST",
+            "name": "Ross Stores",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 2.381237
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 16,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "ROST",
+            "name": "Ross Stores",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 7,
+            "days_in_top_10": 12
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "rank": 177,
+            "previous_rank": 234,
+            "rank_change": 57,
+            "metric_value": 0.845037
+          },
+          {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Information Technology",
+            "rank": 122,
+            "previous_rank": 177,
+            "rank_change": 55,
+            "metric_value": 1.159948
+          },
+          {
+            "ticker": "DXCM",
+            "name": "Dexcom",
+            "sector": "Health Care",
+            "rank": 241,
+            "previous_rank": 291,
+            "rank_change": 50,
+            "metric_value": 0.536007
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 302,
+            "previous_rank": 345,
+            "rank_change": 43,
+            "metric_value": 0.31264
+          },
+          {
+            "ticker": "CHD",
+            "name": "Church & Dwight",
+            "sector": "Consumer Staples",
+            "rank": 253,
+            "previous_rank": 294,
+            "rank_change": 41,
+            "metric_value": 0.506222
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 417,
+            "previous_rank": 304,
+            "rank_change": -113,
+            "metric_value": -0.413087
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 111,
+            "previous_rank": 63,
+            "rank_change": -48,
+            "metric_value": 1.209894
+          },
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 295,
+            "previous_rank": 247,
+            "rank_change": -48,
+            "metric_value": 0.346303
+          },
+          {
+            "ticker": "SRE",
+            "name": "Sempra",
+            "sector": "Utilities",
+            "rank": 285,
+            "previous_rank": 240,
+            "rank_change": -45,
+            "metric_value": 0.382269
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 235,
+            "previous_rank": 195,
+            "rank_change": -40,
+            "metric_value": 0.587602
+          }
+        ],
+        "has_previous": true
+      },
+      "Sortino Ratio": {
+        "current": [
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 6.295536
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 5.06145
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 4.84354
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 4.526586
+          },
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "rank": 5,
+            "previous_rank": 8,
+            "rank_change": 3,
+            "metric_value": 4.24321
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "rank": 5,
+            "metric_value": 4.24321
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "ROST",
+            "name": "Ross Stores",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "metric_value": 4.439467
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 10,
+            "days_in_top_10": 17
+          },
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "days_in_top_5": 9,
+            "days_in_top_10": 18
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Information Technology",
+            "rank": 126,
+            "previous_rank": 186,
+            "rank_change": 60,
+            "metric_value": 1.707046
+          },
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "rank": 182,
+            "previous_rank": 233,
+            "rank_change": 51,
+            "metric_value": 1.235444
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 296,
+            "previous_rank": 345,
+            "rank_change": 49,
+            "metric_value": 0.485949
+          },
+          {
+            "ticker": "DXCM",
+            "name": "Dexcom",
+            "sector": "Health Care",
+            "rank": 246,
+            "previous_rank": 293,
+            "rank_change": 47,
+            "metric_value": 0.767102
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "Consumer Discretionary",
+            "rank": 125,
+            "previous_rank": 169,
+            "rank_change": 44,
+            "metric_value": 1.721687
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 418,
+            "previous_rank": 280,
+            "rank_change": -138,
+            "metric_value": -0.612879
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 108,
+            "previous_rank": 53,
+            "rank_change": -55,
+            "metric_value": 1.944596
+          },
+          {
+            "ticker": "SRE",
+            "name": "Sempra",
+            "sector": "Utilities",
+            "rank": 285,
+            "previous_rank": 242,
+            "rank_change": -43,
+            "metric_value": 0.541551
+          },
+          {
+            "ticker": "PCG",
+            "name": "PG&E Corporation",
+            "sector": "Utilities",
+            "rank": 215,
+            "previous_rank": 174,
+            "rank_change": -41,
+            "metric_value": 1.024616
+          },
+          {
+            "ticker": "YUM",
+            "name": "Yum! Brands",
+            "sector": "Consumer Discretionary",
+            "rank": 325,
+            "previous_rank": 288,
+            "rank_change": -37,
+            "metric_value": 0.240537
+          }
+        ],
+        "has_previous": true
+      },
+      "CAGR": {
+        "current": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 6.759784
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 5.873702
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 4.40432
+          },
+          {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 3.695395
+          },
+          {
+            "ticker": "TER",
+            "name": "Teradyne",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 2.477237
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TER",
+            "name": "Teradyne",
+            "sector": "Information Technology",
+            "days_in_top_5": 16,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DXCM",
+            "name": "Dexcom",
+            "sector": "Health Care",
+            "rank": 222,
+            "previous_rank": 292,
+            "rank_change": 70,
+            "metric_value": 0.145667
+          },
+          {
+            "ticker": "FSLR",
+            "name": "First Solar",
+            "sector": "Information Technology",
+            "rank": 160,
+            "previous_rank": 222,
+            "rank_change": 62,
+            "metric_value": 0.270041
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 297,
+            "previous_rank": 350,
+            "rank_change": 53,
+            "metric_value": 0.050353
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 240,
+            "previous_rank": 290,
+            "rank_change": 50,
+            "metric_value": 0.115329
+          },
+          {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Information Technology",
+            "rank": 41,
+            "previous_rank": 91,
+            "rank_change": 50,
+            "metric_value": 0.6795
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 414,
+            "previous_rank": 299,
+            "rank_change": -115,
+            "metric_value": -0.168952
+          },
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 294,
+            "previous_rank": 250,
+            "rank_change": -44,
+            "metric_value": 0.057521
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 124,
+            "previous_rank": 84,
+            "rank_change": -40,
+            "metric_value": 0.339995
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 162,
+            "previous_rank": 123,
+            "rank_change": -39,
+            "metric_value": 0.264391
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 214,
+            "previous_rank": 176,
+            "rank_change": -38,
+            "metric_value": 0.154329
+          }
+        ],
+        "has_previous": true
+      },
+      "Mean Daily Return": {
+        "current": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.009476
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.008873
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.007767
+          },
+          {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.007379
+          },
+          {
+            "ticker": "TER",
+            "name": "Teradyne",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.00606
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TER",
+            "name": "Teradyne",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 284,
+            "previous_rank": 347,
+            "rank_change": 63,
+            "metric_value": 0.000418
+          },
+          {
+            "ticker": "FSLR",
+            "name": "First Solar",
+            "sector": "Information Technology",
+            "rank": 104,
+            "previous_rank": 166,
+            "rank_change": 62,
+            "metric_value": 0.001544
+          },
+          {
+            "ticker": "DXCM",
+            "name": "Dexcom",
+            "sector": "Health Care",
+            "rank": 194,
+            "previous_rank": 252,
+            "rank_change": 58,
+            "metric_value": 0.000895
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 217,
+            "previous_rank": 262,
+            "rank_change": 45,
+            "metric_value": 0.000756
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "Consumer Discretionary",
+            "rank": 122,
+            "previous_rank": 160,
+            "rank_change": 38,
+            "metric_value": 0.001408
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 417,
+            "previous_rank": 268,
+            "rank_change": -149,
+            "metric_value": -0.000532
+          },
+          {
+            "ticker": "BF-B",
+            "name": "Brown\u2013Forman",
+            "sector": "Consumer Staples",
+            "rank": 357,
+            "previous_rank": 313,
+            "rank_change": -44,
+            "metric_value": 4.3e-05
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 136,
+            "previous_rank": 93,
+            "rank_change": -43,
+            "metric_value": 0.001314
+          },
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 296,
+            "previous_rank": 254,
+            "rank_change": -42,
+            "metric_value": 0.00037
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 139,
+            "previous_rank": 98,
+            "rank_change": -41,
+            "metric_value": 0.00129
+          }
+        ],
+        "has_previous": true
+      },
+      "Daily Volatility (Std)": {
+        "current": [
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.009146
+          },
+          {
+            "ticker": "FE",
+            "name": "FirstEnergy",
+            "sector": "Utilities",
+            "rank": 2,
+            "previous_rank": 4,
+            "rank_change": 2,
+            "metric_value": 0.00991
+          },
+          {
+            "ticker": "DUK",
+            "name": "Duke Energy",
+            "sector": "Utilities",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 0.009912
+          },
+          {
+            "ticker": "WEC",
+            "name": "WEC Energy Group",
+            "sector": "Utilities",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 0.009915
+          },
+          {
+            "ticker": "REG",
+            "name": "Regency Centers",
+            "sector": "Real Estate",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.009957
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "FE",
+            "name": "FirstEnergy",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "DUK",
+            "name": "Duke Energy",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WEC",
+            "name": "WEC Energy Group",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "ATO",
+            "name": "Atmos Energy",
+            "sector": "Utilities",
+            "days_in_top_5": 15,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 285,
+            "previous_rank": 408,
+            "rank_change": 123,
+            "metric_value": 0.020445
+          },
+          {
+            "ticker": "PCG",
+            "name": "PG&E Corporation",
+            "sector": "Utilities",
+            "rank": 141,
+            "previous_rank": 169,
+            "rank_change": 28,
+            "metric_value": 0.016392
+          },
+          {
+            "ticker": "RMD",
+            "name": "ResMed",
+            "sector": "Health Care",
+            "rank": 179,
+            "previous_rank": 195,
+            "rank_change": 16,
+            "metric_value": 0.017118
+          },
+          {
+            "ticker": "BMY",
+            "name": "Bristol Myers Squibb",
+            "sector": "Health Care",
+            "rank": 176,
+            "previous_rank": 186,
+            "rank_change": 10,
+            "metric_value": 0.017086
+          },
+          {
+            "ticker": "HSIC",
+            "name": "Henry Schein",
+            "sector": "Health Care",
+            "rank": 180,
+            "previous_rank": 188,
+            "rank_change": 8,
+            "metric_value": 0.017124
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 188,
+            "previous_rank": 151,
+            "rank_change": -37,
+            "metric_value": 0.017238
+          },
+          {
+            "ticker": "SYK",
+            "name": "Stryker Corporation",
+            "sector": "Health Care",
+            "rank": 194,
+            "previous_rank": 176,
+            "rank_change": -18,
+            "metric_value": 0.017326
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 309,
+            "previous_rank": 293,
+            "rank_change": -16,
+            "metric_value": 0.021227
+          },
+          {
+            "ticker": "VMC",
+            "name": "Vulcan Materials Company",
+            "sector": "Materials",
+            "rank": 204,
+            "previous_rank": 189,
+            "rank_change": -15,
+            "metric_value": 0.017511
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 341,
+            "previous_rank": 331,
+            "rank_change": -10,
+            "metric_value": 0.022355
+          }
+        ],
+        "has_previous": true
+      },
+      "Max Drawdown": {
+        "current": [
+          {
+            "ticker": "CNP",
+            "name": "CenterPoint Energy",
+            "sector": "Utilities",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.071855
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": -0.072454
+          },
+          {
+            "ticker": "FRT",
+            "name": "Federal Realty Investment Trust",
+            "sector": "Real Estate",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.075972
+          },
+          {
+            "ticker": "L",
+            "name": "Loews Corporation",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": -0.080455
+          },
+          {
+            "ticker": "EVRG",
+            "name": "Evergy",
+            "sector": "Utilities",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.081545
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CNP",
+            "name": "CenterPoint Energy",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "FRT",
+            "name": "Federal Realty Investment Trust",
+            "sector": "Real Estate",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "L",
+            "name": "Loews Corporation",
+            "sector": "Financials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "LNT",
+            "name": "Alliant Energy",
+            "sector": "Utilities",
+            "days_in_top_5": 17,
+            "days_in_top_10": 17
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "rank": 97,
+            "previous_rank": 105,
+            "rank_change": 8,
+            "metric_value": -0.157813
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 18,
+            "rank_change": 3,
+            "metric_value": -0.094668
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple Inc.",
+            "sector": "Information Technology",
+            "rank": 74,
+            "previous_rank": 75,
+            "rank_change": 1,
+            "metric_value": -0.13823
+          },
+          {
+            "ticker": "MTD",
+            "name": "Mettler Toledo",
+            "sector": "Health Care",
+            "rank": 341,
+            "previous_rank": 342,
+            "rank_change": 1,
+            "metric_value": -0.319046
+          },
+          {
+            "ticker": "YUM",
+            "name": "Yum! Brands",
+            "sector": "Consumer Discretionary",
+            "rank": 58,
+            "previous_rank": 59,
+            "rank_change": 1,
+            "metric_value": -0.12833
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "NXPI",
+            "name": "NXP Semiconductors",
+            "sector": "Information Technology",
+            "rank": 352,
+            "previous_rank": 335,
+            "rank_change": -17,
+            "metric_value": -0.326149
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 75,
+            "previous_rank": 58,
+            "rank_change": -17,
+            "metric_value": -0.138396
+          },
+          {
+            "ticker": "EIX",
+            "name": "Edison International",
+            "sector": "Utilities",
+            "rank": 34,
+            "previous_rank": 25,
+            "rank_change": -9,
+            "metric_value": -0.110973
+          },
+          {
+            "ticker": "HWM",
+            "name": "Howmet Aerospace",
+            "sector": "Industrials",
+            "rank": 100,
+            "previous_rank": 99,
+            "rank_change": -1,
+            "metric_value": -0.158877
+          },
+          {
+            "ticker": "CB",
+            "name": "Chubb Limited",
+            "sector": "Financials",
+            "rank": 18,
+            "previous_rank": 17,
+            "rank_change": -1,
+            "metric_value": -0.096219
+          }
+        ],
+        "has_previous": true
+      },
+      "Downside Deviation": {
+        "current": [
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.004519
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.005392
+          },
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.005857
+          },
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.006256
+          },
+          {
+            "ticker": "REG",
+            "name": "Regency Centers",
+            "sector": "Real Estate",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.006651
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "REG",
+            "name": "Regency Centers",
+            "sector": "Real Estate",
+            "days_in_top_5": 15,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 7,
+            "days_in_top_10": 17
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "KHC",
+            "name": "Kraft Heinz",
+            "sector": "Consumer Staples",
+            "rank": 213,
+            "previous_rank": 220,
+            "rank_change": 7,
+            "metric_value": 0.012438
+          },
+          {
+            "ticker": "HWM",
+            "name": "Howmet Aerospace",
+            "sector": "Industrials",
+            "rank": 167,
+            "previous_rank": 172,
+            "rank_change": 5,
+            "metric_value": 0.011606
+          },
+          {
+            "ticker": "EG",
+            "name": "Everest Group",
+            "sector": "Financials",
+            "rank": 159,
+            "previous_rank": 164,
+            "rank_change": 5,
+            "metric_value": 0.011449
+          },
+          {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Information Technology",
+            "rank": 485,
+            "previous_rank": 490,
+            "rank_change": 5,
+            "metric_value": 0.026318
+          },
+          {
+            "ticker": "MDLZ",
+            "name": "Mondelez International",
+            "sector": "Consumer Staples",
+            "rank": 107,
+            "previous_rank": 111,
+            "rank_change": 4,
+            "metric_value": 0.010122
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 134,
+            "previous_rank": 89,
+            "rank_change": -45,
+            "metric_value": 0.010725
+          },
+          {
+            "ticker": "MCK",
+            "name": "McKesson Corporation",
+            "sector": "Health Care",
+            "rank": 194,
+            "previous_rank": 182,
+            "rank_change": -12,
+            "metric_value": 0.012003
+          },
+          {
+            "ticker": "YUM",
+            "name": "Yum! Brands",
+            "sector": "Consumer Discretionary",
+            "rank": 109,
+            "previous_rank": 98,
+            "rank_change": -11,
+            "metric_value": 0.01014
+          },
+          {
+            "ticker": "VTR",
+            "name": "Ventas",
+            "sector": "Real Estate",
+            "rank": 58,
+            "previous_rank": 48,
+            "rank_change": -10,
+            "metric_value": 0.008891
+          },
+          {
+            "ticker": "TRGP",
+            "name": "Targa Resources",
+            "sector": "Energy",
+            "rank": 178,
+            "previous_rank": 169,
+            "rank_change": -9,
+            "metric_value": 0.011719
+          }
+        ],
+        "has_previous": true
+      },
+      "RSI_14": {
+        "current": [
+          {
+            "ticker": "BMY",
+            "name": "Bristol Myers Squibb",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 24,
+            "rank_change": 23,
+            "metric_value": 88.656973
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 1,
+            "rank_change": -1,
+            "metric_value": 87.557684
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 12,
+            "rank_change": 9,
+            "metric_value": 84.573187
+          },
+          {
+            "ticker": "ROST",
+            "name": "Ross Stores",
+            "sector": "Consumer Discretionary",
+            "rank": 4,
+            "previous_rank": 2,
+            "rank_change": -2,
+            "metric_value": 84.298569
+          },
+          {
+            "ticker": "ABT",
+            "name": "Abbott Laboratories",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 21,
+            "rank_change": 16,
+            "metric_value": 83.729569
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "BMY",
+            "name": "Bristol Myers Squibb",
+            "sector": "Health Care",
+            "rank": 1,
+            "metric_value": 88.656973
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 3,
+            "metric_value": 84.573187
+          },
+          {
+            "ticker": "ABT",
+            "name": "Abbott Laboratories",
+            "sector": "Health Care",
+            "rank": 5,
+            "metric_value": 83.729569
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "rank": 3,
+            "metric_value": 80.798969
+          },
+          {
+            "ticker": "REGN",
+            "name": "Regeneron Pharmaceuticals",
+            "sector": "Health Care",
+            "rank": 4,
+            "metric_value": 78.426996
+          },
+          {
+            "ticker": "HAS",
+            "name": "Hasbro",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "metric_value": 77.829284
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "days_in_top_5": 8,
+            "days_in_top_10": 11
+          },
+          {
+            "ticker": "UNP",
+            "name": "Union Pacific Corporation",
+            "sector": "Industrials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 7
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "days_in_top_5": 6,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "ADM",
+            "name": "Archer Daniels Midland",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 6,
+            "days_in_top_10": 6
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 5,
+            "days_in_top_10": 9
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 218,
+            "previous_rank": 490,
+            "rank_change": 272,
+            "metric_value": 57.723165
+          },
+          {
+            "ticker": "FSLR",
+            "name": "First Solar",
+            "sector": "Information Technology",
+            "rank": 209,
+            "previous_rank": 401,
+            "rank_change": 192,
+            "metric_value": 58.148891
+          },
+          {
+            "ticker": "COO",
+            "name": "Cooper Companies (The)",
+            "sector": "Health Care",
+            "rank": 42,
+            "previous_rank": 229,
+            "rank_change": 187,
+            "metric_value": 72.033912
+          },
+          {
+            "ticker": "MDT",
+            "name": "Medtronic",
+            "sector": "Health Care",
+            "rank": 32,
+            "previous_rank": 205,
+            "rank_change": 173,
+            "metric_value": 74.276316
+          },
+          {
+            "ticker": "LULU",
+            "name": "Lululemon Athletica",
+            "sector": "Consumer Discretionary",
+            "rank": 160,
+            "previous_rank": 326,
+            "rank_change": 166,
+            "metric_value": 61.69429
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 423,
+            "previous_rank": 141,
+            "rank_change": -282,
+            "metric_value": 39.442432
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 343,
+            "previous_rank": 116,
+            "rank_change": -227,
+            "metric_value": 47.25082
+          },
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "rank": 273,
+            "previous_rank": 63,
+            "rank_change": -210,
+            "metric_value": 52.810035
+          },
+          {
+            "ticker": "PSX",
+            "name": "Phillips 66",
+            "sector": "Energy",
+            "rank": 244,
+            "previous_rank": 55,
+            "rank_change": -189,
+            "metric_value": 55.746851
+          },
+          {
+            "ticker": "BBY",
+            "name": "Best Buy",
+            "sector": "Consumer Discretionary",
+            "rank": 263,
+            "previous_rank": 103,
+            "rank_change": -160,
+            "metric_value": 53.694008
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 50DMA": {
+        "current": [
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 31.135606
+          },
+          {
+            "ticker": "GRMN",
+            "name": "Garmin",
+            "sector": "Consumer Discretionary",
+            "rank": 2,
+            "previous_rank": 5,
+            "rank_change": 3,
+            "metric_value": 24.734071
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 23.362414
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 22.306385
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 10,
+            "rank_change": 5,
+            "metric_value": 21.688348
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 21.688348
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "IQV",
+            "name": "IQVIA",
+            "sector": "Health Care",
+            "rank": 4,
+            "metric_value": 21.175313
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "days_in_top_5": 15,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "days_in_top_5": 7,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "KMX",
+            "name": "CarMax",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 7,
+            "days_in_top_10": 11
+          },
+          {
+            "ticker": "HOOD",
+            "name": "Robinhood Markets",
+            "sector": "Financials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 7
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 150,
+            "previous_rank": 356,
+            "rank_change": 206,
+            "metric_value": 6.553679
+          },
+          {
+            "ticker": "GDDY",
+            "name": "GoDaddy",
+            "sector": "Information Technology",
+            "rank": 285,
+            "previous_rank": 433,
+            "rank_change": 148,
+            "metric_value": 1.788111
+          },
+          {
+            "ticker": "NCLH",
+            "name": "Norwegian Cruise Line Holdings",
+            "sector": "Consumer Discretionary",
+            "rank": 276,
+            "previous_rank": 419,
+            "rank_change": 143,
+            "metric_value": 2.075606
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet Inc. (Class A)",
+            "sector": "Communication Services",
+            "rank": 208,
+            "previous_rank": 337,
+            "rank_change": 129,
+            "metric_value": 4.207298
+          },
+          {
+            "ticker": "ETN",
+            "name": "Eaton Corporation",
+            "sector": "Industrials",
+            "rank": 113,
+            "previous_rank": 234,
+            "rank_change": 121,
+            "metric_value": 8.311219
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 429,
+            "previous_rank": 247,
+            "rank_change": -182,
+            "metric_value": -3.829408
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 248,
+            "previous_rank": 76,
+            "rank_change": -172,
+            "metric_value": 3.080746
+          },
+          {
+            "ticker": "MCK",
+            "name": "McKesson Corporation",
+            "sector": "Health Care",
+            "rank": 199,
+            "previous_rank": 85,
+            "rank_change": -114,
+            "metric_value": 4.502052
+          },
+          {
+            "ticker": "LVS",
+            "name": "Las Vegas Sands",
+            "sector": "Consumer Discretionary",
+            "rank": 382,
+            "previous_rank": 269,
+            "rank_change": -113,
+            "metric_value": -1.82765
+          },
+          {
+            "ticker": "VTR",
+            "name": "Ventas",
+            "sector": "Real Estate",
+            "rank": 279,
+            "previous_rank": 169,
+            "rank_change": -110,
+            "metric_value": 2.003009
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 200DMA": {
+        "current": [
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 98.848075
+          },
+          {
+            "ticker": "HPE",
+            "name": "Hewlett Packard Enterprise",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 4,
+            "rank_change": 2,
+            "metric_value": 69.847935
+          },
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 6,
+            "rank_change": 3,
+            "metric_value": 63.027745
+          },
+          {
+            "ticker": "FTNT",
+            "name": "Fortinet",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 61.682594
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 8,
+            "rank_change": 3,
+            "metric_value": 61.448455
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 63.027745
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 61.448455
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 2,
+            "metric_value": 65.173418
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 64.188213
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 17,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AMD",
+            "name": "Advanced Micro Devices",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 11,
+            "days_in_top_10": 17
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXON",
+            "name": "Axon Enterprise",
+            "sector": "Industrials",
+            "rank": 152,
+            "previous_rank": 294,
+            "rank_change": 142,
+            "metric_value": 11.995626
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 237,
+            "previous_rank": 346,
+            "rank_change": 109,
+            "metric_value": 6.873598
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 70,
+            "previous_rank": 178,
+            "rank_change": 108,
+            "metric_value": 18.957807
+          },
+          {
+            "ticker": "GLW",
+            "name": "Corning Inc.",
+            "sector": "Information Technology",
+            "rank": 215,
+            "previous_rank": 300,
+            "rank_change": 85,
+            "metric_value": 8.178969
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 139,
+            "previous_rank": 220,
+            "rank_change": 81,
+            "metric_value": 12.503415
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 300,
+            "previous_rank": 155,
+            "rank_change": -145,
+            "metric_value": 3.39153
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 172,
+            "previous_rank": 77,
+            "rank_change": -95,
+            "metric_value": 10.803066
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 168,
+            "previous_rank": 78,
+            "rank_change": -90,
+            "metric_value": 10.856247
+          },
+          {
+            "ticker": "CBOE",
+            "name": "Cboe Global Markets",
+            "sector": "Financials",
+            "rank": 244,
+            "previous_rank": 162,
+            "rank_change": -82,
+            "metric_value": 6.650592
+          },
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 333,
+            "previous_rank": 262,
+            "rank_change": -71,
+            "metric_value": 0.998028
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Skewness": {
+        "current": [
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 9.475036
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 8.109416
+          },
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 4.832203
+          },
+          {
+            "ticker": "DVA",
+            "name": "DaVita",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 4.318519
+          },
+          {
+            "ticker": "DOC",
+            "name": "Healthpeak Properties",
+            "sector": "Real Estate",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 3.549897
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "DOC",
+            "name": "Healthpeak Properties",
+            "sector": "Real Estate",
+            "rank": 5,
+            "metric_value": 3.549897
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 3,
+            "metric_value": 4.843913
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "DVA",
+            "name": "DaVita",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "days_in_top_5": 19,
+            "days_in_top_10": 19
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "VMC",
+            "name": "Vulcan Materials Company",
+            "sector": "Materials",
+            "rank": 368,
+            "previous_rank": 399,
+            "rank_change": 31,
+            "metric_value": -0.384923
+          },
+          {
+            "ticker": "BRK-B",
+            "name": "Berkshire Hathaway",
+            "sector": "Financials",
+            "rank": 352,
+            "previous_rank": 374,
+            "rank_change": 22,
+            "metric_value": -0.336377
+          },
+          {
+            "ticker": "SYK",
+            "name": "Stryker Corporation",
+            "sector": "Health Care",
+            "rank": 279,
+            "previous_rank": 300,
+            "rank_change": 21,
+            "metric_value": -0.107858
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 78,
+            "previous_rank": 99,
+            "rank_change": 21,
+            "metric_value": 0.707211
+          },
+          {
+            "ticker": "DPZ",
+            "name": "Domino's",
+            "sector": "Consumer Discretionary",
+            "rank": 301,
+            "previous_rank": 320,
+            "rank_change": 19,
+            "metric_value": -0.175296
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "PCG",
+            "name": "PG&E Corporation",
+            "sector": "Utilities",
+            "rank": 245,
+            "previous_rank": 189,
+            "rank_change": -56,
+            "metric_value": -0.011499
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 122,
+            "previous_rank": 72,
+            "rank_change": -50,
+            "metric_value": 0.462861
+          },
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 34,
+            "previous_rank": 3,
+            "rank_change": -31,
+            "metric_value": 1.3283
+          },
+          {
+            "ticker": "WSM",
+            "name": "Williams-Sonoma, Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 140,
+            "previous_rank": 125,
+            "rank_change": -15,
+            "metric_value": 0.385123
+          },
+          {
+            "ticker": "RMD",
+            "name": "ResMed",
+            "sector": "Health Care",
+            "rank": 360,
+            "previous_rank": 346,
+            "rank_change": -14,
+            "metric_value": -0.370018
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Kurtosis (Fisher)": {
+        "current": [
+          {
+            "ticker": "ED",
+            "name": "Consolidated Edison",
+            "sector": "Utilities",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.580436
+          },
+          {
+            "ticker": "WEC",
+            "name": "WEC Energy Group",
+            "sector": "Utilities",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": -0.180856
+          },
+          {
+            "ticker": "CNP",
+            "name": "CenterPoint Energy",
+            "sector": "Utilities",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.164039
+          },
+          {
+            "ticker": "PSA",
+            "name": "Public Storage",
+            "sector": "Real Estate",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": -0.0925
+          },
+          {
+            "ticker": "PNW",
+            "name": "Pinnacle West Capital",
+            "sector": "Utilities",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": -0.080057
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "ED",
+            "name": "Consolidated Edison",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "WEC",
+            "name": "WEC Energy Group",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "PNW",
+            "name": "Pinnacle West Capital",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "COP",
+            "name": "ConocoPhillips",
+            "sector": "Energy",
+            "days_in_top_5": 17,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CNP",
+            "name": "CenterPoint Energy",
+            "sector": "Utilities",
+            "days_in_top_5": 16,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 432,
+            "previous_rank": 498,
+            "rank_change": 66,
+            "metric_value": 10.944434
+          },
+          {
+            "ticker": "PCG",
+            "name": "PG&E Corporation",
+            "sector": "Utilities",
+            "rank": 75,
+            "previous_rank": 133,
+            "rank_change": 58,
+            "metric_value": 0.868288
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 140,
+            "previous_rank": 151,
+            "rank_change": 11,
+            "metric_value": 1.399626
+          },
+          {
+            "ticker": "CRWD",
+            "name": "CrowdStrike",
+            "sector": "Information Technology",
+            "rank": 214,
+            "previous_rank": 224,
+            "rank_change": 10,
+            "metric_value": 2.306735
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 229,
+            "previous_rank": 238,
+            "rank_change": 9,
+            "metric_value": 2.511263
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 249,
+            "previous_rank": 214,
+            "rank_change": -35,
+            "metric_value": 2.837124
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 225,
+            "previous_rank": 212,
+            "rank_change": -13,
+            "metric_value": 2.472768
+          },
+          {
+            "ticker": "VMC",
+            "name": "Vulcan Materials Company",
+            "sector": "Materials",
+            "rank": 162,
+            "previous_rank": 149,
+            "rank_change": -13,
+            "metric_value": 1.587148
+          },
+          {
+            "ticker": "MA",
+            "name": "Mastercard",
+            "sector": "Financials",
+            "rank": 154,
+            "previous_rank": 145,
+            "rank_change": -9,
+            "metric_value": 1.486879
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 145,
+            "previous_rank": 137,
+            "rank_change": -8,
+            "metric_value": 1.442473
+          }
+        ],
+        "has_previous": true
+      },
+      "Bollinger Bandwidth (20)": {
+        "current": [
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.011326
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.011402
+          },
+          {
+            "ticker": "AES",
+            "name": "AES Corporation",
+            "sector": "Utilities",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.018708
+          },
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.023521
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.029485
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AES",
+            "name": "AES Corporation",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "days_in_top_5": 8,
+            "days_in_top_10": 8
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "VRTX",
+            "name": "Vertex Pharmaceuticals",
+            "sector": "Health Care",
+            "rank": 171,
+            "previous_rank": 265,
+            "rank_change": 94,
+            "metric_value": 0.096011
+          },
+          {
+            "ticker": "OXY",
+            "name": "Occidental Petroleum",
+            "sector": "Energy",
+            "rank": 268,
+            "previous_rank": 357,
+            "rank_change": 89,
+            "metric_value": 0.125488
+          },
+          {
+            "ticker": "PPG",
+            "name": "PPG Industries",
+            "sector": "Materials",
+            "rank": 142,
+            "previous_rank": 218,
+            "rank_change": 76,
+            "metric_value": 0.088118
+          },
+          {
+            "ticker": "DVN",
+            "name": "Devon Energy",
+            "sector": "Energy",
+            "rank": 154,
+            "previous_rank": 228,
+            "rank_change": 74,
+            "metric_value": 0.091047
+          },
+          {
+            "ticker": "DOW",
+            "name": "Dow Inc.",
+            "sector": "Materials",
+            "rank": 211,
+            "previous_rank": 280,
+            "rank_change": 69,
+            "metric_value": 0.106364
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 356,
+            "previous_rank": 252,
+            "rank_change": -104,
+            "metric_value": 0.162522
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 428,
+            "previous_rank": 332,
+            "rank_change": -96,
+            "metric_value": 0.21806
+          },
+          {
+            "ticker": "DXCM",
+            "name": "Dexcom",
+            "sector": "Health Care",
+            "rank": 420,
+            "previous_rank": 335,
+            "rank_change": -85,
+            "metric_value": 0.20965
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 158,
+            "previous_rank": 75,
+            "rank_change": -83,
+            "metric_value": 0.091619
+          },
+          {
+            "ticker": "BSX",
+            "name": "Boston Scientific",
+            "sector": "Health Care",
+            "rank": 276,
+            "previous_rank": 198,
+            "rank_change": -78,
+            "metric_value": 0.128804
+          }
+        ],
+        "has_previous": true
+      },
+      "Dip_Buy_Score": {
+        "current": [
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 6,
+            "rank_change": 5,
+            "metric_value": 94.35
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 1,
+            "rank_change": -1,
+            "metric_value": 93.66
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 8,
+            "rank_change": 5,
+            "metric_value": 93.66
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar Inc.",
+            "sector": "Industrials",
+            "rank": 4,
+            "previous_rank": 2,
+            "rank_change": -2,
+            "metric_value": 93.29
+          },
+          {
+            "ticker": "AMAT",
+            "name": "Applied Materials",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 92.98
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 1,
+            "metric_value": 94.35
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 93.66
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "AMD",
+            "name": "Advanced Micro Devices",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 91.84
+          },
+          {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 91.63
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 18
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 16
+          },
+          {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "sector": "Information Technology",
+            "days_in_top_5": 14,
+            "days_in_top_10": 18
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Information Technology",
+            "days_in_top_5": 11,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "NEM",
+            "name": "Newmont",
+            "sector": "Materials",
+            "rank": 111,
+            "previous_rank": 314,
+            "rank_change": 203,
+            "metric_value": 66.32
+          },
+          {
+            "ticker": "META",
+            "name": "Meta Platforms",
+            "sector": "Communication Services",
+            "rank": 326,
+            "previous_rank": 455,
+            "rank_change": 129,
+            "metric_value": 38.86
+          },
+          {
+            "ticker": "HOOD",
+            "name": "Robinhood Markets",
+            "sector": "Financials",
+            "rank": 270,
+            "previous_rank": 388,
+            "rank_change": 118,
+            "metric_value": 46.93
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 101,
+            "previous_rank": 197,
+            "rank_change": 96,
+            "metric_value": 67.32
+          },
+          {
+            "ticker": "OXY",
+            "name": "Occidental Petroleum",
+            "sector": "Energy",
+            "rank": 123,
+            "previous_rank": 204,
+            "rank_change": 81,
+            "metric_value": 65.01
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Health Care",
+            "rank": 475,
+            "previous_rank": 343,
+            "rank_change": -132,
+            "metric_value": 15.2
+          },
+          {
+            "ticker": "UAL",
+            "name": "United Airlines Holdings",
+            "sector": "Industrials",
+            "rank": 166,
+            "previous_rank": 67,
+            "rank_change": -99,
+            "metric_value": 59.87
+          },
+          {
+            "ticker": "DAL",
+            "name": "Delta Air Lines",
+            "sector": "Industrials",
+            "rank": 142,
+            "previous_rank": 61,
+            "rank_change": -81,
+            "metric_value": 62.95
+          },
+          {
+            "ticker": "PNW",
+            "name": "Pinnacle West Capital",
+            "sector": "Utilities",
+            "rank": 211,
+            "previous_rank": 132,
+            "rank_change": -79,
+            "metric_value": 55.68
+          },
+          {
+            "ticker": "LYV",
+            "name": "Live Nation Entertainment",
+            "sector": "Communication Services",
+            "rank": 184,
+            "previous_rank": 107,
+            "rank_change": -77,
+            "metric_value": 58.15
+          }
+        ],
+        "has_previous": true
+      },
+      "Bear_Breakdown_Score": {
+        "current": [
+          {
+            "ticker": "COIN",
+            "name": "Coinbase",
+            "sector": "Financials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 97.38
+          },
+          {
+            "ticker": "PSKY",
+            "name": "Paramount Skydance Corporation",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 9,
+            "rank_change": 7,
+            "metric_value": 97.09
+          },
+          {
+            "ticker": "ALB",
+            "name": "Albemarle Corporation",
+            "sector": "Materials",
+            "rank": 3,
+            "previous_rank": 6,
+            "rank_change": 3,
+            "metric_value": 95.07
+          },
+          {
+            "ticker": "TTD",
+            "name": "Trade Desk (The)",
+            "sector": "Communication Services",
+            "rank": 4,
+            "previous_rank": 8,
+            "rank_change": 4,
+            "metric_value": 94.15
+          },
+          {
+            "ticker": "PNR",
+            "name": "Pentair",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 12,
+            "rank_change": 7,
+            "metric_value": 94.04
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "PSKY",
+            "name": "Paramount Skydance Corporation",
+            "sector": "Communication Services",
+            "rank": 2,
+            "metric_value": 97.09
+          },
+          {
+            "ticker": "ALB",
+            "name": "Albemarle Corporation",
+            "sector": "Materials",
+            "rank": 3,
+            "metric_value": 95.07
+          },
+          {
+            "ticker": "TTD",
+            "name": "Trade Desk (The)",
+            "sector": "Communication Services",
+            "rank": 4,
+            "metric_value": 94.15
+          },
+          {
+            "ticker": "PNR",
+            "name": "Pentair",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 94.04
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "ISRG",
+            "name": "Intuitive Surgical",
+            "sector": "Health Care",
+            "rank": 2,
+            "metric_value": 95.99
+          },
+          {
+            "ticker": "BLDR",
+            "name": "Builders FirstSource",
+            "sector": "Industrials",
+            "rank": 3,
+            "metric_value": 95.46
+          },
+          {
+            "ticker": "ORCL",
+            "name": "Oracle Corporation",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 95.2
+          },
+          {
+            "ticker": "LKQ",
+            "name": "LKQ Corporation",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "metric_value": 94.79
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "ORCL",
+            "name": "Oracle Corporation",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "BSX",
+            "name": "Boston Scientific",
+            "sector": "Health Care",
+            "days_in_top_5": 9,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "ISRG",
+            "name": "Intuitive Surgical",
+            "sector": "Health Care",
+            "days_in_top_5": 9,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "PSKY",
+            "name": "Paramount Skydance Corporation",
+            "sector": "Communication Services",
+            "days_in_top_5": 8,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "CSGP",
+            "name": "CoStar Group",
+            "sector": "Real Estate",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 81,
+            "previous_rank": 290,
+            "rank_change": 209,
+            "metric_value": 72.66
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 150,
+            "previous_rank": 337,
+            "rank_change": 187,
+            "metric_value": 63.37
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 121,
+            "previous_rank": 298,
+            "rank_change": 177,
+            "metric_value": 66.85
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 278,
+            "previous_rank": 413,
+            "rank_change": 135,
+            "metric_value": 47.73
+          },
+          {
+            "ticker": "VTR",
+            "name": "Ventas",
+            "sector": "Real Estate",
+            "rank": 211,
+            "previous_rank": 328,
+            "rank_change": 117,
+            "metric_value": 55.32
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 284,
+            "previous_rank": 88,
+            "rank_change": -196,
+            "metric_value": 47.08
+          },
+          {
+            "ticker": "PODD",
+            "name": "Insulet Corporation",
+            "sector": "Health Care",
+            "rank": 298,
+            "previous_rank": 146,
+            "rank_change": -152,
+            "metric_value": 44.75
+          },
+          {
+            "ticker": "SYK",
+            "name": "Stryker Corporation",
+            "sector": "Health Care",
+            "rank": 328,
+            "previous_rank": 183,
+            "rank_change": -145,
+            "metric_value": 40.52
+          },
+          {
+            "ticker": "TSCO",
+            "name": "Tractor Supply",
+            "sector": "Consumer Discretionary",
+            "rank": 193,
+            "previous_rank": 53,
+            "rank_change": -140,
+            "metric_value": 58.33
+          },
+          {
+            "ticker": "NCLH",
+            "name": "Norwegian Cruise Line Holdings",
+            "sector": "Consumer Discretionary",
+            "rank": 192,
+            "previous_rank": 76,
+            "rank_change": -116,
+            "metric_value": 58.37
+          }
+        ],
+        "has_previous": true
+      },
+      "Momentum_Continuation_Score": {
+        "current": [
+          {
+            "ticker": "KMX",
+            "name": "CarMax",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 3,
+            "rank_change": 2,
+            "metric_value": 89.93
+          },
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "rank": 2,
+            "previous_rank": 1,
+            "rank_change": -1,
+            "metric_value": 88.2
+          },
+          {
+            "ticker": "VLO",
+            "name": "Valero Energy",
+            "sector": "Energy",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 88.07
+          },
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 8,
+            "rank_change": 4,
+            "metric_value": 87.23
+          },
+          {
+            "ticker": "TGT",
+            "name": "Target Corporation",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "previous_rank": 20,
+            "rank_change": 15,
+            "metric_value": 86.84
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 4,
+            "metric_value": 87.23
+          },
+          {
+            "ticker": "TGT",
+            "name": "Target Corporation",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "metric_value": 86.84
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "NTAP",
+            "name": "NetApp",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 87.87
+          },
+          {
+            "ticker": "PSX",
+            "name": "Phillips 66",
+            "sector": "Energy",
+            "rank": 5,
+            "metric_value": 87.61
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "DVA",
+            "name": "DaVita",
+            "sector": "Health Care",
+            "days_in_top_5": 17,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "days_in_top_5": 14,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "VLO",
+            "name": "Valero Energy",
+            "sector": "Energy",
+            "days_in_top_5": 10,
+            "days_in_top_10": 11
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "PSX",
+            "name": "Phillips 66",
+            "sector": "Energy",
+            "days_in_top_5": 8,
+            "days_in_top_10": 12
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "PODD",
+            "name": "Insulet Corporation",
+            "sector": "Health Care",
+            "rank": 162,
+            "previous_rank": 320,
+            "rank_change": 158,
+            "metric_value": 61.71
+          },
+          {
+            "ticker": "TSCO",
+            "name": "Tractor Supply",
+            "sector": "Consumer Discretionary",
+            "rank": 288,
+            "previous_rank": 440,
+            "rank_change": 152,
+            "metric_value": 45.63
+          },
+          {
+            "ticker": "NCLH",
+            "name": "Norwegian Cruise Line Holdings",
+            "sector": "Consumer Discretionary",
+            "rank": 259,
+            "previous_rank": 410,
+            "rank_change": 151,
+            "metric_value": 49.11
+          },
+          {
+            "ticker": "GDDY",
+            "name": "GoDaddy",
+            "sector": "Information Technology",
+            "rank": 347,
+            "previous_rank": 482,
+            "rank_change": 135,
+            "metric_value": 39.8
+          },
+          {
+            "ticker": "SYK",
+            "name": "Stryker Corporation",
+            "sector": "Health Care",
+            "rank": 167,
+            "previous_rank": 289,
+            "rank_change": 122,
+            "metric_value": 60.66
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 390,
+            "previous_rank": 179,
+            "rank_change": -211,
+            "metric_value": 33.96
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 422,
+            "previous_rank": 233,
+            "rank_change": -189,
+            "metric_value": 28.97
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 358,
+            "previous_rank": 181,
+            "rank_change": -177,
+            "metric_value": 38.37
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 362,
+            "previous_rank": 186,
+            "rank_change": -176,
+            "metric_value": 37.98
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 421,
+            "previous_rank": 276,
+            "rank_change": -145,
+            "metric_value": 29.23
+          }
+        ],
+        "has_previous": true
+      },
+      "Distance_50DMA": {
+        "current": [
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 31.135606
+          },
+          {
+            "ticker": "GRMN",
+            "name": "Garmin",
+            "sector": "Consumer Discretionary",
+            "rank": 2,
+            "previous_rank": 5,
+            "rank_change": 3,
+            "metric_value": 24.734071
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 23.362414
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 22.306385
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 10,
+            "rank_change": 5,
+            "metric_value": 21.688348
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 21.688348
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "IQV",
+            "name": "IQVIA",
+            "sector": "Health Care",
+            "rank": 4,
+            "metric_value": 21.175313
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "days_in_top_5": 15,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "days_in_top_5": 7,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "KMX",
+            "name": "CarMax",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 7,
+            "days_in_top_10": 11
+          },
+          {
+            "ticker": "HOOD",
+            "name": "Robinhood Markets",
+            "sector": "Financials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 7
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 150,
+            "previous_rank": 356,
+            "rank_change": 206,
+            "metric_value": 6.553679
+          },
+          {
+            "ticker": "GDDY",
+            "name": "GoDaddy",
+            "sector": "Information Technology",
+            "rank": 285,
+            "previous_rank": 433,
+            "rank_change": 148,
+            "metric_value": 1.788111
+          },
+          {
+            "ticker": "NCLH",
+            "name": "Norwegian Cruise Line Holdings",
+            "sector": "Consumer Discretionary",
+            "rank": 276,
+            "previous_rank": 419,
+            "rank_change": 143,
+            "metric_value": 2.075606
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet Inc. (Class A)",
+            "sector": "Communication Services",
+            "rank": 208,
+            "previous_rank": 337,
+            "rank_change": 129,
+            "metric_value": 4.207298
+          },
+          {
+            "ticker": "ETN",
+            "name": "Eaton Corporation",
+            "sector": "Industrials",
+            "rank": 113,
+            "previous_rank": 234,
+            "rank_change": 121,
+            "metric_value": 8.311219
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 429,
+            "previous_rank": 247,
+            "rank_change": -182,
+            "metric_value": -3.829408
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 248,
+            "previous_rank": 76,
+            "rank_change": -172,
+            "metric_value": 3.080746
+          },
+          {
+            "ticker": "MCK",
+            "name": "McKesson Corporation",
+            "sector": "Health Care",
+            "rank": 199,
+            "previous_rank": 85,
+            "rank_change": -114,
+            "metric_value": 4.502052
+          },
+          {
+            "ticker": "LVS",
+            "name": "Las Vegas Sands",
+            "sector": "Consumer Discretionary",
+            "rank": 382,
+            "previous_rank": 269,
+            "rank_change": -113,
+            "metric_value": -1.82765
+          },
+          {
+            "ticker": "VTR",
+            "name": "Ventas",
+            "sector": "Real Estate",
+            "rank": 279,
+            "previous_rank": 169,
+            "rank_change": -110,
+            "metric_value": 2.003009
+          }
+        ],
+        "has_previous": true
+      },
+      "Distance_200DMA": {
+        "current": [
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 98.848075
+          },
+          {
+            "ticker": "HPE",
+            "name": "Hewlett Packard Enterprise",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 4,
+            "rank_change": 2,
+            "metric_value": 69.847935
+          },
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 6,
+            "rank_change": 3,
+            "metric_value": 63.027745
+          },
+          {
+            "ticker": "FTNT",
+            "name": "Fortinet",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 61.682594
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 8,
+            "rank_change": 3,
+            "metric_value": 61.448455
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 63.027745
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 61.448455
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 2,
+            "metric_value": 65.173418
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 64.188213
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 17,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AMD",
+            "name": "Advanced Micro Devices",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "days_in_top_5": 11,
+            "days_in_top_10": 17
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXON",
+            "name": "Axon Enterprise",
+            "sector": "Industrials",
+            "rank": 153,
+            "previous_rank": 297,
+            "rank_change": 144,
+            "metric_value": 11.995626
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 239,
+            "previous_rank": 349,
+            "rank_change": 110,
+            "metric_value": 6.873598
+          },
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 70,
+            "previous_rank": 179,
+            "rank_change": 109,
+            "metric_value": 18.957807
+          },
+          {
+            "ticker": "GLW",
+            "name": "Corning Inc.",
+            "sector": "Information Technology",
+            "rank": 217,
+            "previous_rank": 303,
+            "rank_change": 86,
+            "metric_value": 8.178969
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 140,
+            "previous_rank": 222,
+            "rank_change": 82,
+            "metric_value": 12.503415
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 303,
+            "previous_rank": 156,
+            "rank_change": -147,
+            "metric_value": 3.39153
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 173,
+            "previous_rank": 78,
+            "rank_change": -95,
+            "metric_value": 10.803066
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 169,
+            "previous_rank": 79,
+            "rank_change": -90,
+            "metric_value": 10.856247
+          },
+          {
+            "ticker": "CBOE",
+            "name": "Cboe Global Markets",
+            "sector": "Financials",
+            "rank": 247,
+            "previous_rank": 163,
+            "rank_change": -84,
+            "metric_value": 6.650592
+          },
+          {
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Materials",
+            "rank": 336,
+            "previous_rank": 265,
+            "rank_change": -71,
+            "metric_value": 0.998028
+          }
+        ],
+        "has_previous": true
+      },
+      "Drawdown_3M_High": {
+        "current": [
+          {
+            "ticker": "MHK",
+            "name": "Mohawk Industries",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 3,
+            "rank_change": 2,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 4,
+            "rank_change": 2,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "PFG",
+            "name": "Principal Financial Group",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 22,
+            "rank_change": 19,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "NTAP",
+            "name": "NetApp",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 58,
+            "rank_change": 54,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 5,
+            "previous_rank": 12,
+            "rank_change": 7,
+            "metric_value": 0.0
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "PFG",
+            "name": "Principal Financial Group",
+            "sector": "Financials",
+            "rank": 3,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "NTAP",
+            "name": "NetApp",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "WTW",
+            "name": "Willis Towers Watson",
+            "sector": "Financials",
+            "rank": 5,
+            "metric_value": 0.0
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "ZBRA",
+            "name": "Zebra Technologies",
+            "sector": "Information Technology",
+            "rank": 1,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 2,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "BMY",
+            "name": "Bristol Myers Squibb",
+            "sector": "Health Care",
+            "rank": 5,
+            "metric_value": 0.0
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 11
+          },
+          {
+            "ticker": "LW",
+            "name": "Lamb Weston",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 3,
+            "days_in_top_10": 4
+          },
+          {
+            "ticker": "UPS",
+            "name": "United Parcel Service",
+            "sector": "Industrials",
+            "days_in_top_5": 3,
+            "days_in_top_10": 3
+          },
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "days_in_top_5": 2,
+            "days_in_top_10": 4
+          },
+          {
+            "ticker": "OMC",
+            "name": "Omnicom Group",
+            "sector": "Communication Services",
+            "days_in_top_5": 2,
+            "days_in_top_10": 3
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "TSCO",
+            "name": "Tractor Supply",
+            "sector": "Consumer Discretionary",
+            "rank": 107,
+            "previous_rank": 333,
+            "rank_change": 226,
+            "metric_value": -1.744186
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 157,
+            "previous_rank": 356,
+            "rank_change": 199,
+            "metric_value": -2.955112
+          },
+          {
+            "ticker": "BX",
+            "name": "Blackstone Inc.",
+            "sector": "Financials",
+            "rank": 16,
+            "previous_rank": 195,
+            "rank_change": 179,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "ETN",
+            "name": "Eaton Corporation",
+            "sector": "Industrials",
+            "rank": 27,
+            "previous_rank": 201,
+            "rank_change": 174,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "WSM",
+            "name": "Williams-Sonoma, Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 53,
+            "previous_rank": 208,
+            "rank_change": 155,
+            "metric_value": -0.154058
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 366,
+            "previous_rank": 177,
+            "rank_change": -189,
+            "metric_value": -9.944519
+          },
+          {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Materials",
+            "rank": 352,
+            "previous_rank": 167,
+            "rank_change": -185,
+            "metric_value": -9.272183
+          },
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "rank": 193,
+            "previous_rank": 35,
+            "rank_change": -158,
+            "metric_value": -3.981114
+          },
+          {
+            "ticker": "BF-B",
+            "name": "Brown\u2013Forman",
+            "sector": "Consumer Staples",
+            "rank": 253,
+            "previous_rank": 105,
+            "rank_change": -148,
+            "metric_value": -5.792683
+          },
+          {
+            "ticker": "DVA",
+            "name": "DaVita",
+            "sector": "Health Care",
+            "rank": 162,
+            "previous_rank": 23,
+            "rank_change": -139,
+            "metric_value": -3.021257
+          }
+        ],
+        "has_previous": true
+      },
+      "Return_20D": {
+        "current": [
+          {
+            "ticker": "CTSH",
+            "name": "Cognizant",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 33.357505
+          },
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 28.343313
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 9,
+            "rank_change": 6,
+            "metric_value": 26.092466
+          },
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 27,
+            "rank_change": 23,
+            "metric_value": 24.446413
+          },
+          {
+            "ticker": "GRMN",
+            "name": "Garmin",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 24.280242
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 3,
+            "metric_value": 26.092466
+          },
+          {
+            "ticker": "BAX",
+            "name": "Baxter International",
+            "sector": "Health Care",
+            "rank": 4,
+            "metric_value": 24.446413
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CBOE",
+            "name": "Cboe Global Markets",
+            "sector": "Financials",
+            "rank": 3,
+            "metric_value": 24.454792
+          },
+          {
+            "ticker": "HPQ",
+            "name": "HP Inc.",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 24.350205
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "days_in_top_5": 11,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MPC",
+            "name": "Marathon Petroleum",
+            "sector": "Energy",
+            "days_in_top_5": 7,
+            "days_in_top_10": 10
+          },
+          {
+            "ticker": "AXON",
+            "name": "Axon Enterprise",
+            "sector": "Industrials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 10
+          },
+          {
+            "ticker": "MRNA",
+            "name": "Moderna",
+            "sector": "Health Care",
+            "days_in_top_5": 7,
+            "days_in_top_10": 7
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "GDDY",
+            "name": "GoDaddy",
+            "sector": "Information Technology",
+            "rank": 195,
+            "previous_rank": 423,
+            "rank_change": 228,
+            "metric_value": 3.317369
+          },
+          {
+            "ticker": "TSCO",
+            "name": "Tractor Supply",
+            "sector": "Consumer Discretionary",
+            "rank": 136,
+            "previous_rank": 347,
+            "rank_change": 211,
+            "metric_value": 6.254136
+          },
+          {
+            "ticker": "NCLH",
+            "name": "Norwegian Cruise Line Holdings",
+            "sector": "Consumer Discretionary",
+            "rank": 212,
+            "previous_rank": 419,
+            "rank_change": 207,
+            "metric_value": 2.596054
+          },
+          {
+            "ticker": "CSGP",
+            "name": "CoStar Group",
+            "sector": "Real Estate",
+            "rank": 167,
+            "previous_rank": 364,
+            "rank_change": 197,
+            "metric_value": 4.63415
+          },
+          {
+            "ticker": "ARE",
+            "name": "Alexandria Real Estate Equities",
+            "sector": "Real Estate",
+            "rank": 135,
+            "previous_rank": 325,
+            "rank_change": 190,
+            "metric_value": 6.336473
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Information Technology",
+            "rank": 400,
+            "previous_rank": 140,
+            "rank_change": -260,
+            "metric_value": -4.284432
+          },
+          {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Information Technology",
+            "rank": 297,
+            "previous_rank": 63,
+            "rank_change": -234,
+            "metric_value": -0.130745
+          },
+          {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Information Technology",
+            "rank": 459,
+            "previous_rank": 226,
+            "rank_change": -233,
+            "metric_value": -8.700178
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 458,
+            "previous_rank": 263,
+            "rank_change": -195,
+            "metric_value": -8.668864
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 429,
+            "previous_rank": 285,
+            "rank_change": -144,
+            "metric_value": -5.753497
+          }
+        ],
+        "has_previous": true
+      },
+      "Return_60D": {
+        "current": [
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 2,
+            "rank_change": 1,
+            "metric_value": 90.383405
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 3,
+            "rank_change": 1,
+            "metric_value": 88.986291
+          },
+          {
+            "ticker": "FTNT",
+            "name": "Fortinet",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 81.445258
+          },
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 1,
+            "rank_change": -3,
+            "metric_value": 79.656612
+          },
+          {
+            "ticker": "CRWD",
+            "name": "CrowdStrike",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 73.085211
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "PANW",
+            "name": "Palo Alto Networks",
+            "sector": "Information Technology",
+            "days_in_top_5": 18,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "FTNT",
+            "name": "Fortinet",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "COR",
+            "name": "Cencora",
+            "sector": "Health Care",
+            "rank": 53,
+            "previous_rank": 295,
+            "rank_change": 242,
+            "metric_value": 22.010757
+          },
+          {
+            "ticker": "PODD",
+            "name": "Insulet Corporation",
+            "sector": "Health Care",
+            "rank": 137,
+            "previous_rank": 341,
+            "rank_change": 204,
+            "metric_value": 12.176097
+          },
+          {
+            "ticker": "ANET",
+            "name": "Arista Networks",
+            "sector": "Information Technology",
+            "rank": 37,
+            "previous_rank": 230,
+            "rank_change": 193,
+            "metric_value": 25.724196
+          },
+          {
+            "ticker": "CDW",
+            "name": "CDW Corporation",
+            "sector": "Information Technology",
+            "rank": 16,
+            "previous_rank": 200,
+            "rank_change": 184,
+            "metric_value": 35.504587
+          },
+          {
+            "ticker": "J",
+            "name": "Jacobs Solutions",
+            "sector": "Industrials",
+            "rank": 175,
+            "previous_rank": 340,
+            "rank_change": 165,
+            "metric_value": 9.556152
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "IFF",
+            "name": "International Flavors & Fragrances",
+            "sector": "Materials",
+            "rank": 365,
+            "previous_rank": 140,
+            "rank_change": -225,
+            "metric_value": -2.833715
+          },
+          {
+            "ticker": "SMCI",
+            "name": "Supermicro",
+            "sector": "Information Technology",
+            "rank": 477,
+            "previous_rank": 290,
+            "rank_change": -187,
+            "metric_value": -17.368725
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 341,
+            "previous_rank": 195,
+            "rank_change": -146,
+            "metric_value": -0.943135
+          },
+          {
+            "ticker": "DOC",
+            "name": "Healthpeak Properties",
+            "sector": "Real Estate",
+            "rank": 156,
+            "previous_rank": 19,
+            "rank_change": -137,
+            "metric_value": 10.974359
+          },
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 372,
+            "previous_rank": 249,
+            "rank_change": -123,
+            "metric_value": -3.406118
+          }
+        ],
+        "has_previous": true
+      },
+      "Realized_Vol_20D": {
+        "current": [
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 2.631476
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 3.869017
+          },
+          {
+            "ticker": "TECH",
+            "name": "Bio-Techne",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 5.053214
+          },
+          {
+            "ticker": "AES",
+            "name": "AES Corporation",
+            "sector": "Utilities",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 5.528861
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 5.752912
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "HOLX",
+            "name": "Hologic",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AES",
+            "name": "AES Corporation",
+            "sector": "Utilities",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "DAY",
+            "name": "Dayforce",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GL",
+            "name": "Globe Life",
+            "sector": "Financials",
+            "days_in_top_5": 11,
+            "days_in_top_10": 12
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AZO",
+            "name": "AutoZone",
+            "sector": "Consumer Discretionary",
+            "rank": 256,
+            "previous_rank": 361,
+            "rank_change": 105,
+            "metric_value": 33.977266
+          },
+          {
+            "ticker": "PCAR",
+            "name": "Paccar",
+            "sector": "Industrials",
+            "rank": 152,
+            "previous_rank": 242,
+            "rank_change": 90,
+            "metric_value": 27.730746
+          },
+          {
+            "ticker": "ORLY",
+            "name": "O\u2019Reilly Automotive",
+            "sector": "Consumer Discretionary",
+            "rank": 312,
+            "previous_rank": 396,
+            "rank_change": 84,
+            "metric_value": 37.093216
+          },
+          {
+            "ticker": "STZ",
+            "name": "Constellation Brands",
+            "sector": "Consumer Staples",
+            "rank": 108,
+            "previous_rank": 188,
+            "rank_change": 80,
+            "metric_value": 24.658843
+          },
+          {
+            "ticker": "KDP",
+            "name": "Keurig Dr Pepper",
+            "sector": "Consumer Staples",
+            "rank": 168,
+            "previous_rank": 246,
+            "rank_change": 78,
+            "metric_value": 28.893335
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Discretionary",
+            "rank": 260,
+            "previous_rank": 111,
+            "rank_change": -149,
+            "metric_value": 34.131445
+          },
+          {
+            "ticker": "EBAY",
+            "name": "eBay Inc.",
+            "sector": "Consumer Discretionary",
+            "rank": 278,
+            "previous_rank": 153,
+            "rank_change": -125,
+            "metric_value": 35.212349
+          },
+          {
+            "ticker": "VMC",
+            "name": "Vulcan Materials Company",
+            "sector": "Materials",
+            "rank": 318,
+            "previous_rank": 197,
+            "rank_change": -121,
+            "metric_value": 37.416929
+          },
+          {
+            "ticker": "FSLR",
+            "name": "First Solar",
+            "sector": "Information Technology",
+            "rank": 431,
+            "previous_rank": 321,
+            "rank_change": -110,
+            "metric_value": 51.141417
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 393,
+            "previous_rank": 303,
+            "rank_change": -90,
+            "metric_value": 44.827654
+          }
+        ],
+        "has_previous": true
+      },
+      "ATR_14_Pct": {
+        "current": [],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [],
+        "climbers": [],
+        "fallers": [],
+        "has_previous": false
+      },
+      "Volume_Ratio_20D_60D": {
+        "current": [],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [],
+        "climbers": [],
+        "fallers": [],
+        "has_previous": false
+      }
+    },
+    "artifact_path": "leaderboards/sp500/lookback_252.parquet",
+    "rows_added": 11019
+  },
+  "leaders": {
+    "top_by_primary_metric": [
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.9452",
+        "Sortino Ratio": "5.0614",
+        "Mean Daily Return": "0.009476",
+        "Daily Volatility (Std)": "0.0511",
+        "CAGR": "6.7598",
+        "Max Drawdown": "-0.3910"
+      },
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.8993",
+        "Sortino Ratio": "4.8435",
+        "Mean Daily Return": "0.008873",
+        "Daily Volatility (Std)": "0.0486",
+        "CAGR": "5.8737",
+        "Max Drawdown": "-0.3808"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.7011",
+        "Sortino Ratio": "4.5266",
+        "Mean Daily Return": "0.007767",
+        "Daily Volatility (Std)": "0.0456",
+        "CAGR": "4.4043",
+        "Max Drawdown": "-0.3186"
+      },
+      {
+        "Ticker": "VLO",
+        "Name": "Valero Energy",
+        "Sector": "Energy",
+        "SubIndustry": "Oil & Gas Refining & Marketing",
+        "Annualized Sharpe": "2.4969",
+        "Sortino Ratio": "4.1405",
+        "Mean Daily Return": "0.003550",
+        "Daily Volatility (Std)": "0.0226",
+        "CAGR": "1.2849",
+        "Max Drawdown": "-0.1267"
+      },
+      {
+        "Ticker": "ROST",
+        "Name": "Ross Stores",
+        "Sector": "Consumer Discretionary",
+        "SubIndustry": "Apparel Retail",
+        "Annualized Sharpe": "2.3812",
+        "Sortino Ratio": "4.2390",
+        "Mean Daily Return": "0.002443",
+        "Daily Volatility (Std)": "0.0163",
+        "CAGR": "0.7855",
+        "Max Drawdown": "-0.1303"
+      }
+    ],
+    "top_by_sortino": [
+      {
+        "Ticker": "DAY",
+        "Name": "Dayforce",
+        "Sector": "Industrials",
+        "SubIndustry": "Human Resource & Employment Services",
+        "Annualized Sharpe": "1.3869",
+        "Sortino Ratio": "6.2955",
+        "Mean Daily Return": "0.002138",
+        "Daily Volatility (Std)": "0.0245",
+        "CAGR": "0.5992",
+        "Max Drawdown": "-0.0947"
+      },
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.9452",
+        "Sortino Ratio": "5.0614",
+        "Mean Daily Return": "0.009476",
+        "Daily Volatility (Std)": "0.0511",
+        "CAGR": "6.7598",
+        "Max Drawdown": "-0.3910"
+      },
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.8993",
+        "Sortino Ratio": "4.8435",
+        "Mean Daily Return": "0.008873",
+        "Daily Volatility (Std)": "0.0486",
+        "CAGR": "5.8737",
+        "Max Drawdown": "-0.3808"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.7011",
+        "Sortino Ratio": "4.5266",
+        "Mean Daily Return": "0.007767",
+        "Daily Volatility (Std)": "0.0456",
+        "CAGR": "4.4043",
+        "Max Drawdown": "-0.3186"
+      },
+      {
+        "Ticker": "WBD",
+        "Name": "Warner Bros. Discovery",
+        "Sector": "Communication Services",
+        "SubIndustry": "Broadcasting",
+        "Annualized Sharpe": "1.7821",
+        "Sortino Ratio": "4.2432",
+        "Mean Daily Return": "0.003233",
+        "Daily Volatility (Std)": "0.0288",
+        "CAGR": "1.0441",
+        "Max Drawdown": "-0.1578"
+      }
+    ],
+    "top_by_cagr": [
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.9452",
+        "Sortino Ratio": "5.0614",
+        "Mean Daily Return": "0.009476",
+        "Daily Volatility (Std)": "0.0511",
+        "CAGR": "6.7598",
+        "Max Drawdown": "-0.3910"
+      },
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.8993",
+        "Sortino Ratio": "4.8435",
+        "Mean Daily Return": "0.008873",
+        "Daily Volatility (Std)": "0.0486",
+        "CAGR": "5.8737",
+        "Max Drawdown": "-0.3808"
+      },
+      {
+        "Ticker": "STX",
+        "Name": "Seagate Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.7011",
+        "Sortino Ratio": "4.5266",
+        "Mean Daily Return": "0.007767",
+        "Daily Volatility (Std)": "0.0456",
+        "CAGR": "4.4043",
+        "Max Drawdown": "-0.3186"
+      },
+      {
+        "Ticker": "INTC",
+        "Name": "Intel",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.3554",
+        "Sortino Ratio": "4.2188",
+        "Mean Daily Return": "0.007379",
+        "Daily Volatility (Std)": "0.0497",
+        "CAGR": "3.6954",
+        "Max Drawdown": "-0.4190"
+      },
+      {
+        "Ticker": "TER",
+        "Name": "Teradyne",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductor Materials & Equipment",
+        "Annualized Sharpe": "2.0615",
+        "Sortino Ratio": "3.2238",
+        "Mean Daily Return": "0.006060",
+        "Daily Volatility (Std)": "0.0467",
+        "CAGR": "2.4772",
+        "Max Drawdown": "-0.3398"
+      }
+    ],
+    "worst_by_max_drawdown": [
+      {
+        "Ticker": "TTD",
+        "Name": "Trade Desk (The)",
+        "Sector": "Communication Services",
+        "SubIndustry": "Advertising",
+        "Annualized Sharpe": "-2.1085",
+        "Sortino Ratio": "-2.4919",
+        "Mean Daily Return": "-0.005411",
+        "Daily Volatility (Std)": "0.0407",
+        "CAGR": "-0.7974",
+        "Max Drawdown": "-0.8129"
+      },
+      {
+        "Ticker": "CSGP",
+        "Name": "CoStar Group",
+        "Sector": "Real Estate",
+        "SubIndustry": "Real Estate Services",
+        "Annualized Sharpe": "-2.5932",
+        "Sortino Ratio": "-3.0574",
+        "Mean Daily Return": "-0.004316",
+        "Daily Volatility (Std)": "0.0264",
+        "CAGR": "-0.6913",
+        "Max Drawdown": "-0.7197"
+      },
+      {
+        "Ticker": "INTU",
+        "Name": "Intuit",
+        "Sector": "Information Technology",
+        "SubIndustry": "Application Software",
+        "Annualized Sharpe": "-1.6676",
+        "Sortino Ratio": "-2.0446",
+        "Mean Daily Return": "-0.003142",
+        "Daily Volatility (Std)": "0.0299",
+        "CAGR": "-0.5958",
+        "Max Drawdown": "-0.6750"
+      },
+      {
+        "Ticker": "FI",
+        "Name": "Fiserv",
+        "Sector": "Financials",
+        "SubIndustry": "Transaction & Payment Processing Services",
+        "Annualized Sharpe": "-1.2746",
+        "Sortino Ratio": "-1.3848",
+        "Mean Daily Return": "-0.002861",
+        "Daily Volatility (Std)": "0.0356",
+        "CAGR": "-0.6023",
+        "Max Drawdown": "-0.6630"
+      },
+      {
+        "Ticker": "EPAM",
+        "Name": "EPAM Systems",
+        "Sector": "Information Technology",
+        "SubIndustry": "IT Consulting & Other Services",
+        "Annualized Sharpe": "-0.4854",
+        "Sortino Ratio": "-0.6200",
+        "Mean Daily Return": "-0.000942",
+        "Daily Volatility (Std)": "0.0308",
+        "CAGR": "-0.3013",
+        "Max Drawdown": "-0.6565"
+      }
+    ],
+    "top_by_volatility": [
+      {
+        "Ticker": "SMCI",
+        "Name": "Supermicro",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "-0.3258",
+        "Sortino Ratio": "-0.4461",
+        "Mean Daily Return": "-0.001163",
+        "Daily Volatility (Std)": "0.0566",
+        "CAGR": "-0.5095",
+        "Max Drawdown": "-0.6501"
+      },
+      {
+        "Ticker": "MU",
+        "Name": "Micron Technology",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.9452",
+        "Sortino Ratio": "5.0614",
+        "Mean Daily Return": "0.009476",
+        "Daily Volatility (Std)": "0.0511",
+        "CAGR": "6.7598",
+        "Max Drawdown": "-0.3910"
+      },
+      {
+        "Ticker": "INTC",
+        "Name": "Intel",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductors",
+        "Annualized Sharpe": "2.3554",
+        "Sortino Ratio": "4.2188",
+        "Mean Daily Return": "0.007379",
+        "Daily Volatility (Std)": "0.0497",
+        "CAGR": "3.6954",
+        "Max Drawdown": "-0.4190"
+      },
+      {
+        "Ticker": "WDC",
+        "Name": "Western Digital",
+        "Sector": "Information Technology",
+        "SubIndustry": "Technology Hardware, Storage & Peripherals",
+        "Annualized Sharpe": "2.8993",
+        "Sortino Ratio": "4.8435",
+        "Mean Daily Return": "0.008873",
+        "Daily Volatility (Std)": "0.0486",
+        "CAGR": "5.8737",
+        "Max Drawdown": "-0.3808"
+      },
+      {
+        "Ticker": "TER",
+        "Name": "Teradyne",
+        "Sector": "Information Technology",
+        "SubIndustry": "Semiconductor Materials & Equipment",
+        "Annualized Sharpe": "2.0615",
+        "Sortino Ratio": "3.2238",
+        "Mean Daily Return": "0.006060",
+        "Daily Volatility (Std)": "0.0467",
+        "CAGR": "2.4772",
+        "Max Drawdown": "-0.3398"
+      }
+    ]
+  },
+  "sector_summary": {
+    "available": true,
+    "metric": "Annualized Sharpe",
+    "best_by_mean": [
+      {
+        "Sector": "Energy",
+        "mean": 1.1888,
+        "median": 1.1712,
+        "count": 22
+      },
+      {
+        "Sector": "Health Care",
+        "mean": 0.6774,
+        "median": 0.7745,
+        "count": 60
+      },
+      {
+        "Sector": "Materials",
+        "mean": 0.6343,
+        "median": 0.4964,
+        "count": 26
+      },
+      {
+        "Sector": "Financials",
+        "mean": 0.592,
+        "median": 0.6054,
+        "count": 75
+      },
+      {
+        "Sector": "Information Technology",
+        "mean": 0.5844,
+        "median": 0.5098,
+        "count": 68
+      }
+    ],
+    "worst_by_mean": [
+      {
+        "Sector": "Consumer Staples",
+        "mean": 0.1434,
+        "median": 0.0862,
+        "count": 36
+      },
+      {
+        "Sector": "Communication Services",
+        "mean": 0.1574,
+        "median": 0.2053,
+        "count": 23
+      },
+      {
+        "Sector": "Consumer Discretionary",
+        "mean": 0.1965,
+        "median": 0.1661,
+        "count": 50
+      },
+      {
+        "Sector": "Utilities",
+        "mean": 0.3025,
+        "median": 0.3823,
+        "count": 31
+      },
+      {
+        "Sector": "Real Estate",
+        "mean": 0.4388,
+        "median": 0.4774,
+        "count": 31
+      }
+    ]
+  }
+}
