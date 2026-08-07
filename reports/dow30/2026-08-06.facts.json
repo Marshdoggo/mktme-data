@@ -1,0 +1,4658 @@
+{
+  "schema_version": 1,
+  "universe": "dow30",
+  "universe_size": 31,
+  "asof_date": "2026-08-06",
+  "lookback_trading_days": 252,
+  "primary_rank_metric": "Annualized Sharpe",
+  "distribution": {
+    "primary_metric": {
+      "available": true,
+      "column": "Annualized Sharpe",
+      "count": 31,
+      "min": "-1.4263",
+      "median": "0.7506",
+      "max": "2.3111"
+    },
+    "daily_volatility": {
+      "available": true,
+      "column": "Daily Volatility (Std)",
+      "count": 31,
+      "min": "0.0114",
+      "median": "0.0170",
+      "max": "0.0305"
+    },
+    "rsi14": {
+      "available": false,
+      "column": "RSI(14)"
+    }
+  },
+  "extremes": {
+    "largest_drawdown": {
+      "available": true,
+      "column": "Max Drawdown",
+      "Ticker": "NKE",
+      "Name": "Nike",
+      "value": "-0.4853"
+    },
+    "rsi_high": {
+      "available": false,
+      "column": "RSI(14)"
+    },
+    "rsi_low": {
+      "available": false,
+      "column": "RSI(14)"
+    }
+  },
+  "leaderboard_context": {
+    "available": true,
+    "metrics": {
+      "Annualized Sharpe": {
+        "current": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 2.311102
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 3,
+            "rank_change": 1,
+            "metric_value": 2.03479
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 2.01296
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 6,
+            "rank_change": 2,
+            "metric_value": 1.927116
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 1.843497
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "metric_value": 1.927116
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 1.882755
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 18,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "days_in_top_5": 8,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 6,
+            "rank_change": 2,
+            "metric_value": 1.927116
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 3,
+            "rank_change": 1,
+            "metric_value": 2.03479
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 27,
+            "previous_rank": 28,
+            "rank_change": 1,
+            "metric_value": -0.164535
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 7,
+            "previous_rank": 8,
+            "rank_change": 1,
+            "metric_value": 1.529472
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 22,
+            "previous_rank": 23,
+            "rank_change": 1,
+            "metric_value": 0.274317
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 3,
+            "previous_rank": 2,
+            "rank_change": -1,
+            "metric_value": 2.01296
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 28,
+            "previous_rank": 27,
+            "rank_change": -1,
+            "metric_value": -0.265698
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 1.843497
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 6,
+            "previous_rank": 5,
+            "rank_change": -1,
+            "metric_value": 1.83679
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 8,
+            "previous_rank": 7,
+            "rank_change": -1,
+            "metric_value": 1.521802
+          }
+        ],
+        "has_previous": true
+      },
+      "Sortino Ratio": {
+        "current": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 3.744155
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 3.506504
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 3.31306
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 3.279089
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 3.189388
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 18,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 14,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "days_in_top_5": 10,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "Consumer Discretionary",
+            "rank": 14,
+            "previous_rank": 16,
+            "rank_change": 2,
+            "metric_value": 1.242146
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 3.279089
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 27,
+            "previous_rank": 28,
+            "rank_change": 1,
+            "metric_value": -0.230529
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 22,
+            "previous_rank": 23,
+            "rank_change": 1,
+            "metric_value": 0.434013
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 19,
+            "previous_rank": 20,
+            "rank_change": 1,
+            "metric_value": 0.955618
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 16,
+            "previous_rank": 15,
+            "rank_change": -1,
+            "metric_value": 1.174259
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 28,
+            "previous_rank": 27,
+            "rank_change": -1,
+            "metric_value": -0.393552
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 4,
+            "rank_change": -1,
+            "metric_value": 3.189388
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 23,
+            "previous_rank": 22,
+            "rank_change": -1,
+            "metric_value": 0.355633
+          },
+          {
+            "ticker": "VZ",
+            "rank": 20,
+            "previous_rank": 19,
+            "rank_change": -1,
+            "metric_value": 0.805936
+          }
+        ],
+        "has_previous": true
+      },
+      "CAGR": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 1.060371
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.824775
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.733105
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.654383
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.60022
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "days_in_top_5": 12,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 7,
+            "previous_rank": 10,
+            "rank_change": 3,
+            "metric_value": 0.456801
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 12,
+            "previous_rank": 15,
+            "rank_change": 3,
+            "metric_value": 0.236547
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 27,
+            "previous_rank": 29,
+            "rank_change": 2,
+            "metric_value": -0.072922
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 24,
+            "previous_rank": 26,
+            "rank_change": 2,
+            "metric_value": -0.040438
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 19,
+            "previous_rank": 21,
+            "rank_change": 2,
+            "metric_value": 0.116057
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 10,
+            "previous_rank": 8,
+            "rank_change": -2,
+            "metric_value": 0.421836
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 13,
+            "previous_rank": 11,
+            "rank_change": -2,
+            "metric_value": 0.234169
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 29,
+            "previous_rank": 28,
+            "rank_change": -1,
+            "metric_value": -0.103177
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 28,
+            "previous_rank": 27,
+            "rank_change": -1,
+            "metric_value": -0.095266
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 26,
+            "previous_rank": 25,
+            "rank_change": -1,
+            "metric_value": -0.067135
+          }
+        ],
+        "has_previous": true
+      },
+      "Mean Daily Return": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.00319
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.002607
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.002409
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.002298
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.002025
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 14,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "days_in_top_5": 11,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 19,
+            "previous_rank": 22,
+            "rank_change": 3,
+            "metric_value": 0.000531
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 8,
+            "previous_rank": 10,
+            "rank_change": 2,
+            "metric_value": 0.001584
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 27,
+            "previous_rank": 28,
+            "rank_change": 1,
+            "metric_value": -0.000169
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 6,
+            "previous_rank": 7,
+            "rank_change": 1,
+            "metric_value": 0.001685
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 25,
+            "previous_rank": 26,
+            "rank_change": 1,
+            "metric_value": 3.7e-05
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 22,
+            "previous_rank": 20,
+            "rank_change": -2,
+            "metric_value": 0.00031
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 10,
+            "previous_rank": 8,
+            "rank_change": -2,
+            "metric_value": 0.001531
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 15,
+            "previous_rank": 13,
+            "rank_change": -2,
+            "metric_value": 0.000908
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 28,
+            "previous_rank": 27,
+            "rank_change": -1,
+            "metric_value": -0.00027
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 26,
+            "previous_rank": 25,
+            "rank_change": -1,
+            "metric_value": -9.8e-05
+          }
+        ],
+        "has_previous": true
+      },
+      "Daily Volatility (Std)": {
+        "current": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.011404
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.011573
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.011827
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.012328
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.013048
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.011404
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 17,
+            "previous_rank": 17,
+            "rank_change": 0,
+            "metric_value": 0.017265
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 30,
+            "previous_rank": 30,
+            "rank_change": 0,
+            "metric_value": 0.025954
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": 0.024886
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": 0.023856
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.011404
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": 0.024886
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": 0.023856
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 27,
+            "previous_rank": 27,
+            "rank_change": 0,
+            "metric_value": 0.023064
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "rank": 26,
+            "previous_rank": 26,
+            "rank_change": 0,
+            "metric_value": 0.022517
+          }
+        ],
+        "has_previous": true
+      },
+      "Max Drawdown": {
+        "current": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.084968
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": -0.085761
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.109591
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": -0.119019
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.13823
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.084968
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 17,
+            "previous_rank": 17,
+            "rank_change": 0,
+            "metric_value": -0.210943
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 30,
+            "previous_rank": 30,
+            "rank_change": 0,
+            "metric_value": -0.436127
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": -0.374996
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": -0.349106
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": -0.084968
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": -0.374996
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": -0.349106
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 27,
+            "previous_rank": 27,
+            "rank_change": 0,
+            "metric_value": -0.299795
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 26,
+            "previous_rank": 26,
+            "rank_change": 0,
+            "metric_value": -0.297364
+          }
+        ],
+        "has_previous": true
+      },
+      "Downside Deviation": {
+        "current": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.0071
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.007143
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.007668
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.008213
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.008656
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 24,
+            "previous_rank": 25,
+            "rank_change": 1,
+            "metric_value": 0.013704
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 14,
+            "previous_rank": 15,
+            "rank_change": 1,
+            "metric_value": 0.010751
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.0071
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 17,
+            "previous_rank": 17,
+            "rank_change": 0,
+            "metric_value": 0.010995
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 30,
+            "previous_rank": 30,
+            "rank_change": 0,
+            "metric_value": 0.018639
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 25,
+            "previous_rank": 24,
+            "rank_change": -1,
+            "metric_value": 0.013818
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 14,
+            "rank_change": -1,
+            "metric_value": 0.010831
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.0071
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": 0.017849
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": 0.016154
+          }
+        ],
+        "has_previous": true
+      },
+      "RSI_14": {
+        "current": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 2,
+            "rank_change": 1,
+            "metric_value": 82.372681
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 3,
+            "rank_change": 1,
+            "metric_value": 75.938393
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 6,
+            "rank_change": 3,
+            "metric_value": 74.845366
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 1,
+            "rank_change": -3,
+            "metric_value": 72.806122
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "previous_rank": 16,
+            "rank_change": 11,
+            "metric_value": 70.843177
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "metric_value": 74.845366
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "metric_value": 70.843177
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 4,
+            "metric_value": 74.846067
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 5,
+            "metric_value": 74.153047
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "days_in_top_5": 11,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 11,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 11,
+            "days_in_top_10": 12
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "days_in_top_5": 9,
+            "days_in_top_10": 11
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 5,
+            "previous_rank": 16,
+            "rank_change": 11,
+            "metric_value": 70.843177
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 7,
+            "previous_rank": 17,
+            "rank_change": 10,
+            "metric_value": 65.823928
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 9,
+            "previous_rank": 18,
+            "rank_change": 9,
+            "metric_value": 65.642246
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 16,
+            "previous_rank": 23,
+            "rank_change": 7,
+            "metric_value": 61.147354
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 6,
+            "rank_change": 3,
+            "metric_value": 74.845366
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 7,
+            "rank_change": -8,
+            "metric_value": 61.755569
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 13,
+            "previous_rank": 5,
+            "rank_change": -8,
+            "metric_value": 63.136765
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 17,
+            "previous_rank": 10,
+            "rank_change": -7,
+            "metric_value": 60.325248
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 20,
+            "previous_rank": 13,
+            "rank_change": -7,
+            "metric_value": 55.012746
+          },
+          {
+            "ticker": "VZ",
+            "rank": 19,
+            "previous_rank": 15,
+            "rank_change": -4,
+            "metric_value": 56.65529
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 50DMA": {
+        "current": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 23.341333
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 15.191008
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 12.306721
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 10.970585
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 10.860684
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 10.860684
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 12.397637
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 10,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 9
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 11,
+            "previous_rank": 19,
+            "rank_change": 8,
+            "metric_value": 5.814543
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 8,
+            "previous_rank": 11,
+            "rank_change": 3,
+            "metric_value": 7.824658
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 22,
+            "previous_rank": 25,
+            "rank_change": 3,
+            "metric_value": 0.809884
+          },
+          {
+            "ticker": "VZ",
+            "rank": 25,
+            "previous_rank": 27,
+            "rank_change": 2,
+            "metric_value": -0.884247
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 24,
+            "previous_rank": 26,
+            "rank_change": 2,
+            "metric_value": -0.428719
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 10,
+            "rank_change": -5,
+            "metric_value": 4.570079
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 26,
+            "previous_rank": 22,
+            "rank_change": -4,
+            "metric_value": -1.996426
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 20,
+            "previous_rank": 16,
+            "rank_change": -4,
+            "metric_value": 1.853584
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 12,
+            "previous_rank": 8,
+            "rank_change": -4,
+            "metric_value": 5.459801
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 27,
+            "previous_rank": 24,
+            "rank_change": -3,
+            "metric_value": -2.0285
+          }
+        ],
+        "has_previous": true
+      },
+      "% Above 200DMA": {
+        "current": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 33.53446
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 27.592677
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 17.073673
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 16.849588
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 15,
+            "rank_change": 10,
+            "metric_value": 15.398185
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 15.398185
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 17.239062
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 15,
+            "rank_change": 10,
+            "metric_value": 15.398185
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 14,
+            "previous_rank": 17,
+            "rank_change": 3,
+            "metric_value": 11.985675
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 12,
+            "previous_rank": 14,
+            "rank_change": 2,
+            "metric_value": 13.014328
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 25,
+            "previous_rank": 26,
+            "rank_change": 1,
+            "metric_value": 0.182938
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 17.073673
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 15,
+            "previous_rank": 7,
+            "rank_change": -8,
+            "metric_value": 11.980213
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 17,
+            "previous_rank": 13,
+            "rank_change": -4,
+            "metric_value": 9.768854
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 7,
+            "previous_rank": 5,
+            "rank_change": -2,
+            "metric_value": 15.083168
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 13,
+            "previous_rank": 12,
+            "rank_change": -1,
+            "metric_value": 12.850802
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 21,
+            "previous_rank": 20,
+            "rank_change": -1,
+            "metric_value": 6.106844
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Skewness": {
+        "current": [
+          {
+            "ticker": "VZ",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 1.912839
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "Consumer Discretionary",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 1.591223
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 1.426644
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 1.224729
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 1.05635
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "days_in_top_5": 15,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "VZ",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 8
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 16,
+            "previous_rank": 17,
+            "rank_change": 1,
+            "metric_value": 0.142133
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 20,
+            "previous_rank": 21,
+            "rank_change": 1,
+            "metric_value": 0.061757
+          },
+          {
+            "ticker": "AMZN",
+            "name": "Amazon",
+            "sector": "Consumer Discretionary",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 1.591223
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 30,
+            "previous_rank": 30,
+            "rank_change": 0,
+            "metric_value": -1.309157
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": -1.301463
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 21,
+            "previous_rank": 20,
+            "rank_change": -1,
+            "metric_value": 0.058001
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 17,
+            "previous_rank": 16,
+            "rank_change": -1,
+            "metric_value": 0.138843
+          },
+          {
+            "ticker": "VZ",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 1.912839
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": -1.301463
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": -0.571767
+          }
+        ],
+        "has_previous": true
+      },
+      "Return Kurtosis (Fisher)": {
+        "current": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.236808
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.279585
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 0.818209
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 0.858058
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 0.924449
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "days_in_top_5": 17,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 17,
+            "days_in_top_10": 17
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 18,
+            "previous_rank": 19,
+            "rank_change": 1,
+            "metric_value": 3.320591
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.236808
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.279585
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 30,
+            "previous_rank": 30,
+            "rank_change": 0,
+            "metric_value": 21.209464
+          },
+          {
+            "ticker": "VZ",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": 16.153509
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 19,
+            "previous_rank": 18,
+            "rank_change": -1,
+            "metric_value": 3.357276
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.236808
+          },
+          {
+            "ticker": "VZ",
+            "rank": 29,
+            "previous_rank": 29,
+            "rank_change": 0,
+            "metric_value": 16.153509
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 28,
+            "previous_rank": 28,
+            "rank_change": 0,
+            "metric_value": 15.287431
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 27,
+            "previous_rank": 27,
+            "rank_change": 0,
+            "metric_value": 10.979229
+          }
+        ],
+        "has_previous": true
+      },
+      "Bollinger Bandwidth (20)": {
+        "current": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 0.050361
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 0.060627
+          },
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "Consumer Staples",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 0.066914
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 0.073071
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 0.0745
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 15,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "days_in_top_5": 10,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 15
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 7,
+            "previous_rank": 11,
+            "rank_change": 4,
+            "metric_value": 0.084412
+          },
+          {
+            "ticker": "VZ",
+            "rank": 6,
+            "previous_rank": 8,
+            "rank_change": 2,
+            "metric_value": 0.083673
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 14,
+            "previous_rank": 16,
+            "rank_change": 2,
+            "metric_value": 0.11223
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 24,
+            "previous_rank": 25,
+            "rank_change": 1,
+            "metric_value": 0.197219
+          },
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "Consumer Staples",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 0.066914
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 12,
+            "previous_rank": 6,
+            "rank_change": -6,
+            "metric_value": 0.105513
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 25,
+            "previous_rank": 23,
+            "rank_change": -2,
+            "metric_value": 0.197754
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 0.0745
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 16,
+            "previous_rank": 15,
+            "rank_change": -1,
+            "metric_value": 0.133713
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 22,
+            "previous_rank": 21,
+            "rank_change": -1,
+            "metric_value": 0.18382
+          }
+        ],
+        "has_previous": true
+      },
+      "Dip_Buy_Score": {
+        "current": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 93.62
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 79.69
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 79.46
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 75.57
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 75.48
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 17,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "days_in_top_5": 14,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "days_in_top_5": 9,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 25,
+            "previous_rank": 27,
+            "rank_change": 2,
+            "metric_value": 24.86
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 10,
+            "previous_rank": 12,
+            "rank_change": 2,
+            "metric_value": 57.82
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 18,
+            "previous_rank": 20,
+            "rank_change": 2,
+            "metric_value": 45.84
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 79.46
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 30,
+            "previous_rank": 31,
+            "rank_change": 1,
+            "metric_value": 19.66
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 31,
+            "previous_rank": 28,
+            "rank_change": -3,
+            "metric_value": 14.62
+          },
+          {
+            "ticker": "VZ",
+            "rank": 19,
+            "previous_rank": 17,
+            "rank_change": -2,
+            "metric_value": 44.28
+          },
+          {
+            "ticker": "KO",
+            "name": "Coca-Cola",
+            "sector": "Consumer Staples",
+            "rank": 13,
+            "previous_rank": 11,
+            "rank_change": -2,
+            "metric_value": 52.5
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 27,
+            "previous_rank": 26,
+            "rank_change": -1,
+            "metric_value": 21.53
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 26,
+            "previous_rank": 25,
+            "rank_change": -1,
+            "metric_value": 21.92
+          }
+        ],
+        "has_previous": true
+      },
+      "Bear_Breakdown_Score": {
+        "current": [
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 89.2
+          },
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "Consumer Staples",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 84.17
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 79.59
+          },
+          {
+            "ticker": "VZ",
+            "rank": 4,
+            "previous_rank": 5,
+            "rank_change": 1,
+            "metric_value": 71.55
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 9,
+            "rank_change": 4,
+            "metric_value": 68.72
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 68.72
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 3,
+            "metric_value": 80.12
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 19,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 18,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "IBM",
+            "name": "IBM",
+            "sector": "Information Technology",
+            "days_in_top_5": 18,
+            "days_in_top_10": 18
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "days_in_top_5": 13,
+            "days_in_top_10": 18
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike",
+            "sector": "Consumer Discretionary",
+            "days_in_top_5": 12,
+            "days_in_top_10": 20
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 20,
+            "previous_rank": 26,
+            "rank_change": 6,
+            "metric_value": 37.81
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 10,
+            "previous_rank": 16,
+            "rank_change": 6,
+            "metric_value": 59.86
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 14,
+            "previous_rank": 19,
+            "rank_change": 5,
+            "metric_value": 53.42
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 9,
+            "rank_change": 4,
+            "metric_value": 68.72
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 9,
+            "previous_rank": 12,
+            "rank_change": 3,
+            "metric_value": 64.59
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 16,
+            "previous_rank": 7,
+            "rank_change": -9,
+            "metric_value": 51.54
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 29,
+            "previous_rank": 25,
+            "rank_change": -4,
+            "metric_value": 16.84
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 25,
+            "previous_rank": 21,
+            "rank_change": -4,
+            "metric_value": 29.07
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 17,
+            "previous_rank": 13,
+            "rank_change": -4,
+            "metric_value": 49.79
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 6,
+            "previous_rank": 3,
+            "rank_change": -3,
+            "metric_value": 68.41
+          }
+        ],
+        "has_previous": true
+      },
+      "Momentum_Continuation_Score": {
+        "current": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 87.77
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 80.95
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 80.72
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 6,
+            "rank_change": 2,
+            "metric_value": 73.52
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 5,
+            "previous_rank": 3,
+            "rank_change": -2,
+            "metric_value": 73.22
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 4,
+            "metric_value": 73.52
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 74.87
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 9,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "days_in_top_5": 9,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 9,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 18,
+            "previous_rank": 23,
+            "rank_change": 5,
+            "metric_value": 48.84
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 19,
+            "previous_rank": 22,
+            "rank_change": 3,
+            "metric_value": 44.79
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 21,
+            "previous_rank": 24,
+            "rank_change": 3,
+            "metric_value": 42.09
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 16,
+            "previous_rank": 19,
+            "rank_change": 3,
+            "metric_value": 53.26
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 6,
+            "previous_rank": 8,
+            "rank_change": 2,
+            "metric_value": 69.24
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 24,
+            "previous_rank": 17,
+            "rank_change": -7,
+            "metric_value": 39.61
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 11,
+            "previous_rank": 5,
+            "rank_change": -6,
+            "metric_value": 61.07
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 23,
+            "previous_rank": 18,
+            "rank_change": -5,
+            "metric_value": 39.91
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 29,
+            "previous_rank": 26,
+            "rank_change": -3,
+            "metric_value": 23.56
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 17,
+            "previous_rank": 14,
+            "rank_change": -3,
+            "metric_value": 52.74
+          }
+        ],
+        "has_previous": true
+      },
+      "Distance_50DMA": {
+        "current": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 23.341333
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 15.191008
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 12.306721
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 10.970585
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 10.860684
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 10.860684
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 12.397637
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 12,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 10,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 9
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 11,
+            "previous_rank": 19,
+            "rank_change": 8,
+            "metric_value": 5.814543
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 8,
+            "previous_rank": 11,
+            "rank_change": 3,
+            "metric_value": 7.824658
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 22,
+            "previous_rank": 25,
+            "rank_change": 3,
+            "metric_value": 0.809884
+          },
+          {
+            "ticker": "VZ",
+            "rank": 25,
+            "previous_rank": 27,
+            "rank_change": 2,
+            "metric_value": -0.884247
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 24,
+            "previous_rank": 26,
+            "rank_change": 2,
+            "metric_value": -0.428719
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 10,
+            "rank_change": -5,
+            "metric_value": 4.570079
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 26,
+            "previous_rank": 22,
+            "rank_change": -4,
+            "metric_value": -1.996426
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 20,
+            "previous_rank": 16,
+            "rank_change": -4,
+            "metric_value": 1.853584
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 12,
+            "previous_rank": 8,
+            "rank_change": -4,
+            "metric_value": 5.459801
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 27,
+            "previous_rank": 24,
+            "rank_change": -3,
+            "metric_value": -2.0285
+          }
+        ],
+        "has_previous": true
+      },
+      "Distance_200DMA": {
+        "current": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 33.53446
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 27.592677
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 17.073673
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 16.849588
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 15,
+            "rank_change": 10,
+            "metric_value": 15.398185
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 15.398185
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 17.239062
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 10,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 15,
+            "rank_change": 10,
+            "metric_value": 15.398185
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 14,
+            "previous_rank": 17,
+            "rank_change": 3,
+            "metric_value": 11.985675
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 12,
+            "previous_rank": 14,
+            "rank_change": 2,
+            "metric_value": 13.014328
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 25,
+            "previous_rank": 26,
+            "rank_change": 1,
+            "metric_value": 0.182938
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 17.073673
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 15,
+            "previous_rank": 7,
+            "rank_change": -8,
+            "metric_value": 11.980213
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 17,
+            "previous_rank": 13,
+            "rank_change": -4,
+            "metric_value": 9.768854
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 7,
+            "previous_rank": 5,
+            "rank_change": -2,
+            "metric_value": 15.083168
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 13,
+            "previous_rank": 12,
+            "rank_change": -1,
+            "metric_value": 12.850802
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 21,
+            "previous_rank": 20,
+            "rank_change": -1,
+            "metric_value": 6.106844
+          }
+        ],
+        "has_previous": true
+      },
+      "Drawdown_3M_High": {
+        "current": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 8,
+            "rank_change": 7,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 7,
+            "rank_change": 5,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": -0.730692
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 2,
+            "rank_change": -2,
+            "metric_value": -0.818394
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": -0.969964
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 2,
+            "metric_value": 0.0
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 1,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 4,
+            "metric_value": -0.170411
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 14,
+            "days_in_top_10": 19
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 11,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "days_in_top_5": 10,
+            "days_in_top_10": 18
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 10,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 7,
+            "days_in_top_10": 12
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 8,
+            "rank_change": 7,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 13,
+            "previous_rank": 20,
+            "rank_change": 7,
+            "metric_value": -3.662801
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 7,
+            "rank_change": 5,
+            "metric_value": 0.0
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 10,
+            "previous_rank": 14,
+            "rank_change": 4,
+            "metric_value": -2.824631
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 24,
+            "previous_rank": 26,
+            "rank_change": 2,
+            "metric_value": -8.136317
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 12,
+            "previous_rank": 4,
+            "rank_change": -8,
+            "metric_value": -3.495432
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 19,
+            "previous_rank": 12,
+            "rank_change": -7,
+            "metric_value": -5.246563
+          },
+          {
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Materials",
+            "rank": 6,
+            "previous_rank": 1,
+            "rank_change": -5,
+            "metric_value": -1.693351
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 11,
+            "previous_rank": 6,
+            "rank_change": -5,
+            "metric_value": -3.235653
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "rank": 22,
+            "previous_rank": 18,
+            "rank_change": -4,
+            "metric_value": -7.420651
+          }
+        ],
+        "has_previous": true
+      },
+      "Return_20D": {
+        "current": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 30.049954
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 16.331924
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 14.935385
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 14.377145
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 5,
+            "previous_rank": 8,
+            "rank_change": 3,
+            "metric_value": 11.338763
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 5,
+            "metric_value": 11.338763
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 5,
+            "metric_value": 12.597568
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 14,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "days_in_top_5": 13,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 13,
+            "days_in_top_10": 13
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "days_in_top_5": 11,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 10
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 8,
+            "previous_rank": 15,
+            "rank_change": 7,
+            "metric_value": 8.848913
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 20,
+            "previous_rank": 26,
+            "rank_change": 6,
+            "metric_value": -0.083178
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 19,
+            "previous_rank": 25,
+            "rank_change": 6,
+            "metric_value": 0.081709
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "rank": 9,
+            "previous_rank": 14,
+            "rank_change": 5,
+            "metric_value": 8.72163
+          },
+          {
+            "ticker": "JNJ",
+            "name": "Johnson & Johnson",
+            "sector": "Health Care",
+            "rank": 23,
+            "previous_rank": 27,
+            "rank_change": 4,
+            "metric_value": -0.818217
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 27,
+            "previous_rank": 19,
+            "rank_change": -8,
+            "metric_value": -2.215026
+          },
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 24,
+            "previous_rank": 18,
+            "rank_change": -6,
+            "metric_value": -1.188276
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 18,
+            "previous_rank": 12,
+            "rank_change": -6,
+            "metric_value": 2.172259
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 11,
+            "previous_rank": 5,
+            "rank_change": -6,
+            "metric_value": 7.75222
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 15,
+            "previous_rank": 11,
+            "rank_change": -4,
+            "metric_value": 4.069741
+          }
+        ],
+        "has_previous": true
+      },
+      "Return_60D": {
+        "current": [
+          {
+            "ticker": "TRV",
+            "name": "Travelers",
+            "sector": "Financials",
+            "rank": 1,
+            "previous_rank": 1,
+            "rank_change": 0,
+            "metric_value": 29.909467
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "rank": 2,
+            "previous_rank": 2,
+            "rank_change": 0,
+            "metric_value": 26.070887
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "rank": 3,
+            "previous_rank": 4,
+            "rank_change": 1,
+            "metric_value": 22.834434
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 4,
+            "previous_rank": 3,
+            "rank_change": -1,
+            "metric_value": 22.447326
+          },
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "previous_rank": 6,
+            "rank_change": 1,
+            "metric_value": 21.131195
+          }
+        ],
+        "new_entrants": [
+          {
+            "ticker": "MSFT",
+            "name": "Microsoft",
+            "sector": "Information Technology",
+            "rank": 5,
+            "metric_value": 21.131195
+          }
+        ],
+        "dropouts": [
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 5,
+            "metric_value": 18.91426
+          }
+        ],
+        "persistence": [
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "days_in_top_5": 20,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "days_in_top_5": 15,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "days_in_top_5": 11,
+            "days_in_top_10": 14
+          },
+          {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group",
+            "sector": "Health Care",
+            "days_in_top_5": 10,
+            "days_in_top_10": 17
+          },
+          {
+            "ticker": "TRV",
+            "name": "Travelers Companies, Inc.",
+            "sector": "Financials",
+            "days_in_top_5": 8,
+            "days_in_top_10": 13
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 24,
+            "previous_rank": 28,
+            "rank_change": 4,
+            "metric_value": -0.038197
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 20,
+            "previous_rank": 23,
+            "rank_change": 3,
+            "metric_value": 2.518136
+          },
+          {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "sector": "Information Technology",
+            "rank": 16,
+            "previous_rank": 18,
+            "rank_change": 2,
+            "metric_value": 6.741154
+          },
+          {
+            "ticker": "MRK",
+            "name": "Merck",
+            "sector": "Health Care",
+            "rank": 9,
+            "previous_rank": 11,
+            "rank_change": 2,
+            "metric_value": 15.357656
+          },
+          {
+            "ticker": "HD",
+            "name": "Home Depot",
+            "sector": "Consumer Discretionary",
+            "rank": 11,
+            "previous_rank": 13,
+            "rank_change": 2,
+            "metric_value": 12.24149
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 27,
+            "previous_rank": 22,
+            "rank_change": -5,
+            "metric_value": -2.527186
+          },
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 13,
+            "previous_rank": 8,
+            "rank_change": -5,
+            "metric_value": 9.871758
+          },
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "sector": "Information Technology",
+            "rank": 25,
+            "previous_rank": 21,
+            "rank_change": -4,
+            "metric_value": -0.205063
+          },
+          {
+            "ticker": "CAT",
+            "name": "Caterpillar",
+            "sector": "Industrials",
+            "rank": 29,
+            "previous_rank": 26,
+            "rank_change": -3,
+            "metric_value": -7.534605
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 15,
+            "previous_rank": 12,
+            "rank_change": -3,
+            "metric_value": 9.283912
+          }
+        ],
+        "has_previous": true
+      },
+      "Realized_Vol_20D": {
+        "current": [
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 2,
+            "rank_change": 1,
+            "metric_value": 18.786539
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 1,
+            "rank_change": -1,
+            "metric_value": 18.993074
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "rank": 3,
+            "previous_rank": 3,
+            "rank_change": 0,
+            "metric_value": 20.871726
+          },
+          {
+            "ticker": "WMT",
+            "name": "Walmart",
+            "sector": "Consumer Staples",
+            "rank": 4,
+            "previous_rank": 4,
+            "rank_change": 0,
+            "metric_value": 21.169071
+          },
+          {
+            "ticker": "MCD",
+            "name": "McDonald's",
+            "sector": "Consumer Discretionary",
+            "rank": 5,
+            "previous_rank": 5,
+            "rank_change": 0,
+            "metric_value": 23.274023
+          }
+        ],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "days_in_top_5": 19,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase",
+            "sector": "Financials",
+            "days_in_top_5": 16,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "days_in_top_5": 13,
+            "days_in_top_10": 20
+          },
+          {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Health Care",
+            "days_in_top_5": 10,
+            "days_in_top_10": 15
+          },
+          {
+            "ticker": "CVX",
+            "name": "Chevron",
+            "sector": "Energy",
+            "days_in_top_5": 8,
+            "days_in_top_10": 16
+          }
+        ],
+        "climbers": [
+          {
+            "ticker": "AXP",
+            "name": "American Express",
+            "sector": "Financials",
+            "rank": 10,
+            "previous_rank": 14,
+            "rank_change": 4,
+            "metric_value": 27.361324
+          },
+          {
+            "ticker": "CSCO",
+            "name": "Cisco",
+            "sector": "Information Technology",
+            "rank": 17,
+            "previous_rank": 19,
+            "rank_change": 2,
+            "metric_value": 33.630521
+          },
+          {
+            "ticker": "PG",
+            "name": "Procter & Gamble",
+            "sector": "Consumer Staples",
+            "rank": 1,
+            "previous_rank": 2,
+            "rank_change": 1,
+            "metric_value": 18.786539
+          },
+          {
+            "ticker": "GOOGL",
+            "name": "Alphabet (Class A)",
+            "sector": "Communication Services",
+            "rank": 27,
+            "previous_rank": 28,
+            "rank_change": 1,
+            "metric_value": 51.139393
+          },
+          {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financials",
+            "rank": 26,
+            "previous_rank": 27,
+            "rank_change": 1,
+            "metric_value": 50.961586
+          }
+        ],
+        "fallers": [
+          {
+            "ticker": "HON",
+            "name": "Honeywell Technologies",
+            "sector": "Industrials",
+            "rank": 13,
+            "previous_rank": 10,
+            "rank_change": -3,
+            "metric_value": 28.97397
+          },
+          {
+            "ticker": "DIS",
+            "name": "Disney",
+            "sector": "Communication Services",
+            "rank": 15,
+            "previous_rank": 12,
+            "rank_change": -3,
+            "metric_value": 29.691093
+          },
+          {
+            "ticker": "CRM",
+            "name": "Salesforce",
+            "sector": "Information Technology",
+            "rank": 28,
+            "previous_rank": 26,
+            "rank_change": -2,
+            "metric_value": 51.368397
+          },
+          {
+            "ticker": "BA",
+            "name": "Boeing",
+            "sector": "Industrials",
+            "rank": 25,
+            "previous_rank": 23,
+            "rank_change": -2,
+            "metric_value": 45.339071
+          },
+          {
+            "ticker": "V",
+            "name": "Visa",
+            "sector": "Financials",
+            "rank": 2,
+            "previous_rank": 1,
+            "rank_change": -1,
+            "metric_value": 18.993074
+          }
+        ],
+        "has_previous": true
+      },
+      "ATR_14_Pct": {
+        "current": [],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [],
+        "climbers": [],
+        "fallers": [],
+        "has_previous": false
+      },
+      "Volume_Ratio_20D_60D": {
+        "current": [],
+        "new_entrants": [],
+        "dropouts": [],
+        "persistence": [],
+        "climbers": [],
+        "fallers": [],
+        "has_previous": false
+      }
+    },
+    "artifact_path": "leaderboards/dow30/lookback_252.parquet",
+    "rows_added": 682
+  },
+  "leaders": {
+    "top_by_primary_metric": [
+      {
+        "Ticker": "JNJ",
+        "Name": "Johnson & Johnson",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.3111",
+        "Sortino Ratio": "3.7442",
+        "Mean Daily Return": "0.001685",
+        "Daily Volatility (Std)": "0.0116",
+        "CAGR": "0.5006",
+        "Max Drawdown": "-0.1096"
+      },
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "Industrials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0348",
+        "Sortino Ratio": "3.3131",
+        "Mean Daily Return": "0.003190",
+        "Daily Volatility (Std)": "0.0249",
+        "CAGR": "1.0604",
+        "Max Drawdown": "-0.2650"
+      },
+      {
+        "Ticker": "GOOGL",
+        "Name": "Alphabet (Class A)",
+        "Sector": "Communication Services",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0130",
+        "Sortino Ratio": "3.5065",
+        "Mean Daily Return": "0.002607",
+        "Daily Volatility (Std)": "0.0206",
+        "CAGR": "0.8248",
+        "Max Drawdown": "-0.2109"
+      },
+      {
+        "Ticker": "TRV",
+        "Name": "Travelers",
+        "Sector": "Financials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.9271",
+        "Sortino Ratio": "3.2791",
+        "Mean Daily Return": "0.001584",
+        "Daily Volatility (Std)": "0.0130",
+        "CAGR": "0.4568",
+        "Max Drawdown": "-0.0858"
+      },
+      {
+        "Ticker": "MRK",
+        "Name": "Merck",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.8435",
+        "Sortino Ratio": "3.1894",
+        "Mean Daily Return": "0.002025",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.6002",
+        "Max Drawdown": "-0.1190"
+      }
+    ],
+    "top_by_sortino": [
+      {
+        "Ticker": "JNJ",
+        "Name": "Johnson & Johnson",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.3111",
+        "Sortino Ratio": "3.7442",
+        "Mean Daily Return": "0.001685",
+        "Daily Volatility (Std)": "0.0116",
+        "CAGR": "0.5006",
+        "Max Drawdown": "-0.1096"
+      },
+      {
+        "Ticker": "GOOGL",
+        "Name": "Alphabet (Class A)",
+        "Sector": "Communication Services",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0130",
+        "Sortino Ratio": "3.5065",
+        "Mean Daily Return": "0.002607",
+        "Daily Volatility (Std)": "0.0206",
+        "CAGR": "0.8248",
+        "Max Drawdown": "-0.2109"
+      },
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "Industrials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0348",
+        "Sortino Ratio": "3.3131",
+        "Mean Daily Return": "0.003190",
+        "Daily Volatility (Std)": "0.0249",
+        "CAGR": "1.0604",
+        "Max Drawdown": "-0.2650"
+      },
+      {
+        "Ticker": "TRV",
+        "Name": "Travelers",
+        "Sector": "Financials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.9271",
+        "Sortino Ratio": "3.2791",
+        "Mean Daily Return": "0.001584",
+        "Daily Volatility (Std)": "0.0130",
+        "CAGR": "0.4568",
+        "Max Drawdown": "-0.0858"
+      },
+      {
+        "Ticker": "MRK",
+        "Name": "Merck",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.8435",
+        "Sortino Ratio": "3.1894",
+        "Mean Daily Return": "0.002025",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.6002",
+        "Max Drawdown": "-0.1190"
+      }
+    ],
+    "top_by_cagr": [
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "Industrials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0348",
+        "Sortino Ratio": "3.3131",
+        "Mean Daily Return": "0.003190",
+        "Daily Volatility (Std)": "0.0249",
+        "CAGR": "1.0604",
+        "Max Drawdown": "-0.2650"
+      },
+      {
+        "Ticker": "GOOGL",
+        "Name": "Alphabet (Class A)",
+        "Sector": "Communication Services",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0130",
+        "Sortino Ratio": "3.5065",
+        "Mean Daily Return": "0.002607",
+        "Daily Volatility (Std)": "0.0206",
+        "CAGR": "0.8248",
+        "Max Drawdown": "-0.2109"
+      },
+      {
+        "Ticker": "CSCO",
+        "Name": "Cisco",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.8368",
+        "Sortino Ratio": "2.7909",
+        "Mean Daily Return": "0.002409",
+        "Daily Volatility (Std)": "0.0208",
+        "CAGR": "0.7331",
+        "Max Drawdown": "-0.1565"
+      },
+      {
+        "Ticker": "UNH",
+        "Name": "UnitedHealth Group",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.5295",
+        "Sortino Ratio": "2.2587",
+        "Mean Daily Return": "0.002298",
+        "Daily Volatility (Std)": "0.0239",
+        "CAGR": "0.6544",
+        "Max Drawdown": "-0.2998"
+      },
+      {
+        "Ticker": "MRK",
+        "Name": "Merck",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.8435",
+        "Sortino Ratio": "3.1894",
+        "Mean Daily Return": "0.002025",
+        "Daily Volatility (Std)": "0.0174",
+        "CAGR": "0.6002",
+        "Max Drawdown": "-0.1190"
+      }
+    ],
+    "worst_by_max_drawdown": [
+      {
+        "Ticker": "NKE",
+        "Name": "Nike",
+        "Sector": "Consumer Discretionary",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-1.4263",
+        "Sortino Ratio": "-1.7993",
+        "Mean Daily Return": "-0.002023",
+        "Daily Volatility (Std)": "0.0225",
+        "CAGR": "-0.4364",
+        "Max Drawdown": "-0.4853"
+      },
+      {
+        "Ticker": "CRM",
+        "Name": "Salesforce",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.4168",
+        "Sortino Ratio": "-0.5804",
+        "Mean Daily Return": "-0.000682",
+        "Daily Volatility (Std)": "0.0260",
+        "CAGR": "-0.2254",
+        "Max Drawdown": "-0.4361"
+      },
+      {
+        "Ticker": "IBM",
+        "Name": "IBM",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.1109",
+        "Sortino Ratio": "0.1430",
+        "Mean Daily Return": "0.000213",
+        "Daily Volatility (Std)": "0.0305",
+        "CAGR": "-0.0671",
+        "Max Drawdown": "-0.3750"
+      },
+      {
+        "Ticker": "MSFT",
+        "Name": "Microsoft",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.0289",
+        "Sortino Ratio": "0.0445",
+        "Mean Daily Return": "0.000037",
+        "Daily Volatility (Std)": "0.0203",
+        "CAGR": "-0.0404",
+        "Max Drawdown": "-0.3491"
+      },
+      {
+        "Ticker": "UNH",
+        "Name": "UnitedHealth Group",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.5295",
+        "Sortino Ratio": "2.2587",
+        "Mean Daily Return": "0.002298",
+        "Daily Volatility (Std)": "0.0239",
+        "CAGR": "0.6544",
+        "Max Drawdown": "-0.2998"
+      }
+    ],
+    "top_by_volatility": [
+      {
+        "Ticker": "IBM",
+        "Name": "IBM",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.1109",
+        "Sortino Ratio": "0.1430",
+        "Mean Daily Return": "0.000213",
+        "Daily Volatility (Std)": "0.0305",
+        "CAGR": "-0.0671",
+        "Max Drawdown": "-0.3750"
+      },
+      {
+        "Ticker": "CRM",
+        "Name": "Salesforce",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "-0.4168",
+        "Sortino Ratio": "-0.5804",
+        "Mean Daily Return": "-0.000682",
+        "Daily Volatility (Std)": "0.0260",
+        "CAGR": "-0.2254",
+        "Max Drawdown": "-0.4361"
+      },
+      {
+        "Ticker": "CAT",
+        "Name": "Caterpillar",
+        "Sector": "Industrials",
+        "SubIndustry": "",
+        "Annualized Sharpe": "2.0348",
+        "Sortino Ratio": "3.3131",
+        "Mean Daily Return": "0.003190",
+        "Daily Volatility (Std)": "0.0249",
+        "CAGR": "1.0604",
+        "Max Drawdown": "-0.2650"
+      },
+      {
+        "Ticker": "UNH",
+        "Name": "UnitedHealth Group",
+        "Sector": "Health Care",
+        "SubIndustry": "",
+        "Annualized Sharpe": "1.5295",
+        "Sortino Ratio": "2.2587",
+        "Mean Daily Return": "0.002298",
+        "Daily Volatility (Std)": "0.0239",
+        "CAGR": "0.6544",
+        "Max Drawdown": "-0.2998"
+      },
+      {
+        "Ticker": "NVDA",
+        "Name": "Nvidia",
+        "Sector": "Information Technology",
+        "SubIndustry": "",
+        "Annualized Sharpe": "0.7104",
+        "Sortino Ratio": "1.0435",
+        "Mean Daily Return": "0.001032",
+        "Daily Volatility (Std)": "0.0231",
+        "CAGR": "0.2124",
+        "Max Drawdown": "-0.2022"
+      }
+    ]
+  },
+  "sector_summary": {
+    "available": true,
+    "metric": "Annualized Sharpe",
+    "best_by_mean": [
+      {
+        "Sector": "Health Care",
+        "mean": 1.7786,
+        "median": 1.6865,
+        "count": 4
+      },
+      {
+        "Sector": "Financials",
+        "mean": 1.127,
+        "median": 1.09,
+        "count": 5
+      },
+      {
+        "Sector": "Energy",
+        "mean": 1.0336,
+        "median": 1.0336,
+        "count": 1
+      },
+      {
+        "Sector": "Industrials",
+        "mean": 0.9519,
+        "median": 0.7713,
+        "count": 4
+      },
+      {
+        "Sector": "Communication Services",
+        "mean": 0.9242,
+        "median": 0.9242,
+        "count": 2
+      }
+    ],
+    "worst_by_mean": [
+      {
+        "Sector": "Consumer Discretionary",
+        "mean": -0.3638,
+        "median": -0.3897,
+        "count": 4
+      },
+      {
+        "Sector": "Materials",
+        "mean": 0.2743,
+        "median": 0.2743,
+        "count": 1
+      },
+      {
+        "Sector": "Consumer Staples",
+        "mean": 0.5189,
+        "median": 0.4642,
+        "count": 3
+      },
+      {
+        "Sector": "Information Technology",
+        "mean": 0.632,
+        "median": 0.4106,
+        "count": 6
+      },
+      {
+        "Sector": "Communication Services",
+        "mean": 0.9242,
+        "median": 0.9242,
+        "count": 2
+      }
+    ]
+  }
+}
